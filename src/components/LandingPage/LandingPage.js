@@ -183,16 +183,12 @@ export default class LandingPage extends Component {
             <ThirdView />
             <ForthView />
           </Content>
-          <Footer
-            style={{
-              background: '#1c1b22',
-              color: 'white',
-            }}
-          >
+          <Footer style={{ background: '#1c1b22', color: 'white', }} >
             <Row>
-              <Col span={12} style={{ display: 'flex', alignItems: 'left', justifyContent: 'left' }}>
+              <Col span={12} style={{ display: 'flex', alignItems: 'left', justifyContent: 'left',fontFamily:'Chakra petch' }}>
                 <img src={logo} width={50} />
                 <img src={name} width={150} />
+                Created with ❤️ by Team Zeru
               </Col>
               <Col span={12} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '2rem' }}>
                 <a href='https://discord.gg/yW2BU288Kw' target="_blank">
