@@ -20,7 +20,8 @@ body {
   /*background-color: #282c34;*/
   color: white;
   font-size: 3rem;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Chakra Petch', sans-serif;
   font-weight: 800;
   text-align: left;
   margin: auto;
@@ -34,12 +35,13 @@ body {
 #firstviewtextcomp {
   padding-left: 15%;
   padding-right: 15%;
+  font-weight: 700;
 }
 
 #firstviewtextcomp p {
   margin-top: 30px;
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .secondview {
@@ -50,7 +52,8 @@ body {
   /* background-color: #f0f7ff; */
   background: rgb(2, 0, 36);
   background: linear-gradient(126deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 30%, rgba(7, 47, 146, 1) 65%, rgba(4, 130, 201, 1) 100%, rgba(0, 212, 255, 1) 100%);
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Chakra Petch', sans-serif;
   font-weight: 800;
   text-align: left;
   margin: auto;
@@ -64,13 +67,13 @@ body {
 
 .secondviewitems p {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .secondviewitems h1 {
   margin-top: 10px;
   font-size: 3rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .bringingcard {
@@ -93,13 +96,15 @@ body {
   min-height: 100vh;
   color: white;
   font-size: 3rem;
-  font-family: 'Poppins', 'Roboto', sans-serif;
+  /* font-family: 'Poppins', 'Roboto', sans-serif; */
+  font-family: 'Chakra Petch', sans-serif;
   text-align: left;
   margin: auto;
 }
 
 .commonview p {
   font-size: 1rem;
+  font-weight: 500;
 }
 
 .container {
@@ -130,22 +135,26 @@ body {
 
 #thirdview {
   font-weight: 800;
-  font-family: 'Poppins';
+  /* font-family: 'Poppins'; */
+  font-family: 'Chakra Petch', sans-serif;
   background: #0b0e14;
   padding-bottom: 100px;
 }
 
 #thirdview p {
-  font-weight: 400;
+  font-size: 1.1rem;
+  font-weight: 500; 
 }
 
 #forthview {
-  font-family: 'Poppins';
+  /* font-family: 'Poppins'; */
+  font-family: 'Chakra Petch', sans-serif;
   font-weight: 800;
 }
 
 #forthview p {
-  font-weight: 400;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .secondcardclass {
@@ -174,7 +183,8 @@ body {
 
 .col {
   padding: 20px;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Chakra Petch', sans-serif;
   font-size: 1.5rem;
 }
 
@@ -186,11 +196,12 @@ body {
 #fifthview {
   width: 100vw;
   min-height: 100vh;
-  background-color:black;
+  background-color:white;
   font-size: 2rem;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Chakra Petch', sans-serif;
   padding-bottom: 40px;
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -201,7 +212,8 @@ body {
   font-size: 3rem;
   font-weight: 800;
   margin-top: 30px;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 .heading p {
@@ -309,7 +321,8 @@ p {
 
 .ant-menu>.ant-menu-item {
   font-size: 1rem;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Chakra Petch', sans-serif;
   color: black;
   background-color: white;
 }
@@ -329,12 +342,14 @@ p {
   margin-left: auto;
   text-align: left;
   font-size: 1.5rem;
+  font-weight: 600;
   padding-left: 30px;
   padding-right: 30px;
 }
 
 .secondcenter .d1 p {
-  font-size: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
   margin: 10px 0;
 }
 
@@ -367,7 +382,8 @@ p {
     background-color: #191919;
     color: white;
     font-size: 1.8rem;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Chakra Petch', sans-serif;
     font-weight: 800;
     /* background-image: url("./images/a4.png");
     overflow: hidden; */
@@ -388,7 +404,8 @@ p {
     font-size: 1.8rem;
     font-weight: 800;
     margin-top: 30px;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Chakra Petch', sans-serif;
   }
 
   .heading p {
@@ -487,7 +504,8 @@ p {
 #forthview {
   margin-top: 0px;
   padding-top: 0px;
-  font-family: 'Poppins';
+  /* font-family: 'Poppins'; */
+  font-family: 'Chakra Petch', sans-serif;
   font-size: 1.8rem;
   font-weight: 800;
 }
