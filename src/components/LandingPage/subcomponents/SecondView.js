@@ -18,7 +18,7 @@ export default class SecondView extends Component {
             <Fade duration={500} direction='up' triggerOnce='true' fraction={1}>
               <div>
                 Integrating DEFI with NFT
-                <p >Bringing Decentralized Finance and NFT together</p>
+                <p>Bringing Decentralized Finance and NFT together</p>
               </div>
             </Fade>
             

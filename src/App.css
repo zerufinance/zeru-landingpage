@@ -3,7 +3,8 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
-.zeru{
+
+.zeru {
   font-weight: 800;
   font-size: 2rem;
   color: gold;
@@ -66,7 +67,7 @@ body {
 }
 
 .secondviewitems p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
@@ -79,6 +80,7 @@ body {
 .bringingcard {
   font-size: 4rem;
 }
+
 .defiandnftcardrow {
   margin-top: 100px;
   display: flex;
@@ -143,7 +145,7 @@ body {
 
 #thirdview p {
   font-size: 1.1rem;
-  font-weight: 500; 
+  font-weight: 500;
 }
 
 #forthview {
@@ -190,18 +192,17 @@ body {
 
 .col p {
   font-size: 1rem;
-  color: #5d5d5d;
 }
 
 #fifthview {
   width: 100vw;
   min-height: 100vh;
-  background-color:white;
+  background-color: white;
   font-size: 2rem;
   /* font-family: 'Poppins', sans-serif; */
   font-family: 'Chakra Petch', sans-serif;
   padding-bottom: 40px;
-  color: black;
+  color: #2A0766;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -214,12 +215,14 @@ body {
   margin-top: 30px;
   /* font-family: 'Poppins', sans-serif; */
   font-family: 'Chakra Petch', sans-serif;
+  color: #2A0766;
 }
 
 .heading p {
-  font-weight: 400;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #4A0DB2;
 }
-
 
 .roundedimg {
   border-radius: 50%;
@@ -289,7 +292,14 @@ p {
   color: #d000c4 !important;
 }
 
-.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after {
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu:hover::after {
   border-bottom: 2px solid #d000c4;
   color: #d000c4;
 }
@@ -299,12 +309,12 @@ p {
   color: white;
 }
 
-#seeproductbtn{
-  background: -webkit-linear-gradient(left,#224df9,#5b0ce9,#ce00cd);
+#seeproductbtn {
+  background: -webkit-linear-gradient(left, #224df9, #5b0ce9, #ce00cd);
 }
 
-#discordbtn{
-  background: -webkit-linear-gradient(left,#224df9,#5b0ce9,#ce00cd);
+#discordbtn {
+  background: -webkit-linear-gradient(right, #224df9, #5b0ce9, #ce00cd);
 }
 
 .site-back-top-basic {
@@ -351,6 +361,7 @@ p {
   font-size: 1.1rem;
   font-weight: 500;
   margin: 10px 0;
+  color: #4A0DB2;
 }
 
 .secondcenter .d2 {
@@ -369,19 +380,19 @@ p {
 /* Mobile responsive design */
 @media (max-width:640px) {
   .zeru {
-      font-weight: 800;
-      margin-top: 10px;
-      margin-left: 0px;
-      font-size: 1.5rem;
-      color: gold;
-    }
+    font-weight: 800;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 1.5rem;
+    color: gold;
+  }
 
   .firstview {
     width: 100vw;
     min-height: 100vh;
     background-color: #191919;
     color: white;
-    font-size: 1.8rem;
+    font-size: 2rem;
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 800;
@@ -396,7 +407,7 @@ p {
 
   #firstviewtextcomp p {
     margin-top: 10px;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     font-weight: 400;
   }
 
@@ -406,6 +417,7 @@ p {
     margin-top: 30px;
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Chakra Petch', sans-serif;
+    color: #2A0766;
   }
 
   .heading p {
@@ -413,113 +425,118 @@ p {
     font-weight: 400;
   }
 
-.secondcenter .d1 {
-  margin-left: auto;
-  text-align: left;
-  font-size: 1.2rem;
-  font-weight: 600;
-  padding-left: 30px;
-  padding-right: 30px;
-}
+  .secondcenter .d1 {
+    margin-left: auto;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 
-.secondcenter .d1 p {
-  font-size: 0.7rem;
-  font-weight: 400;
-}
+  .secondcenter .d1 p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #4A0DB2;
+  }
 
-.secondcenter .d2 {
-  margin-right: 0px;
-  margin-left: 0px;
-}
+  .secondcenter .d2 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
 
-.secondcenter img{
-  margin-left: 20px;
-  margin-right: 20px;
-  height: 70px;
-  width: 70px;
-}
+  .secondcenter img {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100px;
+    width: 100px;
+  }
 
-.secondcenter .id1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-right: 0px;
-}
-.secondviewitems {
-  text-align: left;
-  padding-top: 20px;
-  padding-left: 30px;
-  padding-right: 20px;
-  padding-bottom: 0px;
-  color: white;
-}
+  .secondcenter .id1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 0px;
+  }
 
-.secondviewitems {
-  text-align: left;
-  color: white;
-  font-size: 1.8rem;
-}
+  .secondviewitems {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    color: white;
+  }
 
-.secondviewitems p {
-  font-size: 0.9rem;
-  font-weight: 400;
-}
+  .secondviewitems {
+    text-align: left;
+    color: white;
+    font-size: 1.8rem;
+  }
 
-.secondviewitems h1 {
-  margin-top: 10px;
-  font-size: 3rem;
-  font-weight: 800;
-}
+  .secondviewitems p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
 
-.defiandnftcardrow {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding-bottom: 30px;
-}
+  .secondviewitems h1 {
+    margin-top: 10px;
+    font-size: 3rem;
+    font-weight: 800;
+  }
 
-.textmargin {
-  padding-top: 30px;
-  font-size: 1.8rem;
-  margin: 10px;
-  text-align: right;
-}
-.textmargin p{
-  font-size: 0.9rem;
-}
+  .defiandnftcardrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
 
-.cardintransfer {
-  margin-top: 20px;
-  border-radius: 0.75rem;
-  background-color: #1e212d;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  border: none;
-  color: white;
-  font-size: 1.5rem;
-  overflow: hidden;
-}
+  .textmargin {
+    padding-top: 30px;
+    font-size: 1.8rem;
+    margin: 10px;
+    text-align: right;
+  }
 
-#forthview {
-  margin-top: 0px;
-  padding-top: 0px;
-  /* font-family: 'Poppins'; */
-  font-family: 'Chakra Petch', sans-serif;
-  font-size: 1.8rem;
-  font-weight: 800;
-}
+  .textmargin p {
+    font-size: 0.9rem;
+  }
 
-#forthview p {
-  font-weight: 400;
-  font-size: 0.9rem;
-}
-.top {
-  padding: 20px 10px 0 10px;
-  text-align: center;
-}
-.top img{
-  width: 300px;
-}
+  .cardintransfer {
+    margin-top: 20px;
+    border-radius: 0.75rem;
+    background-color: #1e212d;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    overflow: hidden;
+  }
+
+  #forthview {
+    margin-top: 0px;
+    padding-top: 0px;
+    /* font-family: 'Poppins'; */
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+  }
+
+  #forthview p {
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+
+  .top {
+    padding: 20px 10px 0 10px;
+    text-align: center;
+  }
+
+  .top img {
+    width: 300px;
+  }
 
 }

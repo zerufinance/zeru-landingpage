@@ -5,7 +5,7 @@ export default class FirstViewAnimatedComp extends Component {
   render() {
     return (
       <div>
-        <DiscordButton value="Join our community!"/>
+        <DiscordButton value="Join our community"/>
       </div>
     )
   }

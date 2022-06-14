@@ -14,7 +14,7 @@ export default function Defiandnft() {
                     <div >
                         <Slide duration="500" triggerOnce='true' fraction={1}>
                             <Card className='bringingcard' style={{ width: 200, height: 200,borderRadius: '0.75rem', boxShadow: '0 6px 12px 0 rgba(3, 19, 84, 0.2)', display: 'flex', justifyContent: 'center', alignItems: 'center', background: 'white' }} >
-                                <span className='gradientext'>
+                                <span className='gradientext4'>
                                     DEFI
                                 </span>
                             </Card>
@@ -33,7 +33,7 @@ export default function Defiandnft() {
                 <Col span={11} style={{ display: 'flex', justifyContent: 'left', alignItems: 'center', background: 'transparent'}}>
                     <Slide direction="right" duration="500" triggerOnce='true' fraction={1}>
                         <Card className='bringingcard' style={{ width: 200, height: 200, borderRadius: '0.75rem', boxShadow: '0 6px 12px 0 rgba(3, 19, 84, 0.2)', display: 'flex', justifyContent: 'center', alignItems: 'center', background: 'white' }}>
-                            <span className='gradientext3'>
+                            <span className='gradientext4'>
                                 NFT
                             </span>
                         </Card>

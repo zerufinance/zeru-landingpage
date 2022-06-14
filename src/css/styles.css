@@ -1,6 +1,7 @@
 .gradientext {
     -webkit-text-fill-color: transparent;
-    background: -webkit-linear-gradient(left, #ffd000, #ffb300, #e100ff, #50f);
+    /* background: -webkit-linear-gradient(left, #ffd000, #ffb300, #e100ff, #50f); */
+    background: -webkit-linear-gradient(right, #224df9, #5b0ce9, #ce00cd);
     background-clip: border-box;
     -webkit-background-clip: text;
 }

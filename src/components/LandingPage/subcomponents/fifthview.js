@@ -48,7 +48,7 @@ export default class fifthview extends Component {
                         Zero Collateral Loans
                         <div className='gradientlinebottom'>
                         </div>
-                        <p style={{ fontSize: '1.1rem', fontWeight: '500' }}>Enabling Zero collateral loans to everyone in the world</p>
+                        <p>Enabling Zero collateral loans to everyone in the world</p>
                     </div>
 
                 </Fade>
@@ -66,7 +66,7 @@ export default class fifthview extends Component {
                     </Fade>
                     <Fade direction='right' duration={500} triggerOnce='true' fraction={1}>
                         <div className='d2'>
-                            <img src={credit} alt="get credit" width={150} />
+                            <img src={credit} alt="get credit" width={200} />
                         </div>
                     </Fade>
 
@@ -75,7 +75,7 @@ export default class fifthview extends Component {
                 <div className='secondcenter'>
                     <Fade direction='left' duration={500} triggerOnce='true' fraction={1}>
                         <div className='d2'>
-                            <img src={freeupcollateral} alt="get credit" width={150} />
+                            <img src={freeupcollateral} alt="get credit" width={200} />
                         </div>
                     </Fade>
                     <Fade direction='right' duration={500} triggerOnce='true' fraction={1}>
@@ -105,7 +105,7 @@ export default class fifthview extends Component {
                     <Fade direction='right' duration={500} triggerOnce='true' >
                         <div className='d2'>
                             <div className='id1'>
-                                <img src={community} alt="get credit" width={150} />
+                                <img src={community} alt="get credit" width={200} />
                             </div>
                         </div>
                     </Fade>

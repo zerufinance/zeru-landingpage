@@ -17,7 +17,7 @@ export default class ThirdView extends Component {
         <Fade direction='left' duration={500} triggerOnce='true' >
           <div className='textmargin'>
             Transferable <span className='gradientext4'>NFT's</span>
-            <p>Transfer your credit to anyone as NFT.</p>
+            <p style={{fontSize:'1.2rem',fontWeight:'500'}}>Transfer your credit to anyone as NFT.</p>
           </div>
         </Fade>
         
