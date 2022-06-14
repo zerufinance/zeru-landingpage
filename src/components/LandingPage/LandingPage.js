@@ -188,7 +188,10 @@ export default class LandingPage extends Component {
               <Col span={12} style={{ display: 'flex', alignItems: 'left', justifyContent: 'left',fontFamily:'Chakra petch' }}>
                 <img src={logo} width={50} />
                 <img src={name} width={150} />
+                {/* <span style={{float:'right'}}>
                 Created with ❤️ by Team Zeru
+                </span> */}
+                
               </Col>
               <Col span={12} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '2rem' }}>
                 <a href='https://discord.gg/yW2BU288Kw' target="_blank">
