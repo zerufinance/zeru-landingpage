@@ -20,6 +20,8 @@ export default class TopNavbar extends Component {
         <img src={logo} width={30} style={{ float: 'left', marginTop: '15px' }} />
         <img src={name} width={130} style={{ float: 'left', marginTop: '11px', marginLeft: '7px' }} />
 
+        <div className='mobileHidden'>
+
         <Menu mode="horizontal" style={{ float: 'right', backgroundColor: 'transparent', color: 'white', borderBottom: 'none' }}>
           <Menu.Item key="mail" style={menuitem}>
             <a href='#fifthview' style={anchoritem}>
@@ -50,6 +52,10 @@ export default class TopNavbar extends Component {
           </Menu.Item>
 
         </Menu>
+        
+        </div>
+
+       
 
 
       </div>

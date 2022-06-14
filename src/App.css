@@ -378,7 +378,12 @@ p {
 
 
 /* Mobile responsive design */
-@media (max-width:640px) {
+@media (max-width:1003px) {
+
+  .mobileHidden{
+    visibility: hidden;
+  }
+
   .zeru {
     font-weight: 800;
     margin-top: 10px;
