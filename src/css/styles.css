@@ -1,0 +1,58 @@
+.gradientext {
+    -webkit-text-fill-color: transparent;
+    /* background: -webkit-linear-gradient(left, #ffd000, #ffb300, #e100ff, #50f); */
+    background: -webkit-linear-gradient(right, #224df9, #5b0ce9, #ce00cd);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+}
+
+.gradientext2 {
+
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(right, rgb(0, 255, 209), rgb(103, 117, 220), rgb(255, 0, 249));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+}
+
+.gradientext3 {
+
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(right, rgb(103, 117, 220), rgb(255, 0, 249));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+}
+
+.gradientext4 {
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(left,#ffb300, #e100ff, #50f);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+}
+
+.gradientext5 {
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(left,#7c51ed,#1473fe);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+}
+
+.gradientext6 {
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(left,#f01e58,#8b49e5);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+}
+
+.gradientext7 {
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(left,#0079ff,#19bea2);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+}
+
+.gradientext8 {
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(right,#7d51ed,#0d74fe);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+}
