@@ -2,6 +2,7 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
+  font-family: 'Chakra petch',sans-serif;
 }
 
 .zeru {
@@ -45,13 +46,18 @@ body {
   font-weight: 500;
 }
 
+.featuresview{
+  padding-top: 5rem;
+  background: linear-gradient(126deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 30%, rgba(7, 47, 146, 1) 65%, rgba(4, 130, 201, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
 .secondview {
   width: 100vw;
   min-height: 100vh;
   color: #070c38;
   font-size: 3.5rem;
   /* background-color: #f0f7ff; */
-  background: rgb(2, 0, 36);
+  /* background: rgb(2, 0, 36); */
   background: linear-gradient(126deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 30%, rgba(7, 47, 146, 1) 65%, rgba(4, 130, 201, 1) 100%, rgba(0, 212, 255, 1) 100%);
   /* font-family: 'Poppins', sans-serif; */
   font-family: 'Chakra Petch', sans-serif;
@@ -147,6 +153,11 @@ body {
   font-size: 1.1rem;
   font-weight: 500;
 }
+
+.roadmapview{
+  background: linear-gradient(306deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 30%, rgba(7, 47, 146, 1) 65%, rgba(4, 130, 201, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
 
 #forthview {
   /* font-family: 'Poppins'; */
@@ -288,7 +299,7 @@ p {
 .ant-menu>.ant-menu-submenu-selected,
 .ant-menu>.ant-menu-submenu:hover {
   /* background: -webkit-linear-gradient(right, rgb(103, 117, 220), rgb(255, 0, 249)); */
-  background: #191919;
+  background: #0b0e14;
   color: #d000c4 !important;
 }
 

@@ -14,6 +14,8 @@ import { FaDiscord, FaGithub, FaTwitter, FaTelegram } from 'react-icons/fa';
 import logo from '../../images/logo.png'
 import name from '../../images/name.png'
 import Promote from './subcomponents/Promote';
+import Features from './subcomponents/Features';
+import Roadmap from './subcomponents/Roadmap';
 
 const { Header, Footer, Sider, Content } = Layout;
 
@@ -171,22 +173,24 @@ export default class LandingPage extends Component {
         />
 
         <Layout style={{ background: 'transparent' }}>
-          <Header style={{ background: '#191919', position: 'fixed', zIndex: '11', width: '100%' }}>
+          <Header style={{ background: '#0b0e14', position: 'fixed', zIndex: '11', width: '100%' }}>
             <div>
               <TopNavbar />
             </div>
 
           </Header>
+          
           <Content>
             <FirstView />
             <Promote />
+            <Features/>
             <Fifthview />
-            
             <SecondView />
             <ThirdView />
+            <Roadmap/>
             <ForthView />
           </Content>
-          <Footer style={{ background: '#1c1b22', color: 'white', }} >
+          <Footer style={{ background: '#0b0e14', color: 'white', }} >
             <Row className='footer'>
               <Col span={12} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center',fontFamily:'Chakra petch' }}>
                 <img src={logo} width={50} />

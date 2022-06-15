@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Fade } from 'react-awesome-reveal'
-import community from '../../../images/community.jpg'
+import community from '../../../images/community-new.png'
 import DiscordButton from './reusable/DiscordButton'
 
 
@@ -20,7 +20,6 @@ export default class ForthView extends Component {
           </Fade>
           
             <img src={community} alt="Logo" width={500} />
-          
           
         </div>
       </div>

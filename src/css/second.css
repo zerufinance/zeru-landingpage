@@ -9,8 +9,9 @@
 }
 
 .featurediv {
-
-    background-color: #0b0e14;
+    color: black;
+    font-weight: 500;
+    background-color: white;
     border-radius: 0.75rem;
     padding: 20px;
     min-height: 280px;
@@ -23,7 +24,7 @@
 .featurediv p {
     font-size: 1rem;
     max-width: 300px;
-    color: #7d7d7d;
+    color: #2d2d2d;
 }
 
 .gradientline {
@@ -34,6 +35,14 @@
     margin-bottom: 0.25rem;
     background-size: 200%;
     animation: colorchangeanimation 5s infinite alternate;
+}
+
+.promote{
+    background: -webkit-linear-gradient(126deg, #ffb300, #ff00ea,rgb(0, 38, 255));
+    background-size: 150%;
+    animation: colorchangeanimation 3s infinite alternate;
+    border: none;
+    color: black;
 }
 
 .gradientlinebottom {
