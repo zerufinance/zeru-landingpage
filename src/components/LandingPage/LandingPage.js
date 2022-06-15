@@ -184,8 +184,8 @@ export default class LandingPage extends Component {
             <ForthView />
           </Content>
           <Footer style={{ background: '#1c1b22', color: 'white', }} >
-            <Row>
-              <Col span={12} style={{ display: 'flex', alignItems: 'left', justifyContent: 'left',fontFamily:'Chakra petch' }}>
+            <Row className='footer'>
+              <Col span={12} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center',fontFamily:'Chakra petch' }}>
                 <img src={logo} width={50} />
                 <img src={name} width={150} />
                 {/* <span style={{float:'right'}}>

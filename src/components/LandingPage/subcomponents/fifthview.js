@@ -60,7 +60,7 @@ export default class fifthview extends Component {
                             </div>
                             Get Line of Credit
                             <p>
-                                Get Credit instantly from zeru, We will never take any personal information from the user and we will never ask for KYC.
+                            Get Credit instantly from zeru, We will never take any personal information from the user and never ask for KYC.
                             </p>
                         </div>
                     </Fade>
@@ -84,7 +84,7 @@ export default class fifthview extends Component {
                             </div>
                             Free up Your Collateral
                             <p>
-                                Your collateral will get freed everytime you take a loan, and eventually when you reach zero collateral we don't need collateral to give you loan.
+                            By taking undercollateralized loans you can free up your collateral that used to get locked up in the protocol. By freeing up your collateral you optimize your total yield.
                             </p>
                         </div>
                     </Fade>
@@ -98,7 +98,7 @@ export default class fifthview extends Component {
                             </div>
                             Community First
                             <p>
-                                Zeru will be community governed protocol, Decisions will be made by community.
+                            Zeru will be a community-first protocol by making the community our top priority. Thus, making our users the true owners of Zeru.
                             </p>
                         </div>
                     </Fade>
