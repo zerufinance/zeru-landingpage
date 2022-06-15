@@ -70,7 +70,7 @@ export default function TopNavbar() {
             </a>
           </Menu.Item>
           <Menu.Item key="4" style={menuitem}>
-            <a id='seeproductbtn' style={{ marginTop: '10px', borderRadius: '0.75rem', border: 'none', height: '50px', color: 'white', padding: '7px' }}>
+            <a id='seeproductbtn' style={{ marginTop: '10px', borderRadius: '0.75rem', border: 'none', height: '50px', color: 'white', padding: '7px',fontSize:'1rem' }}>
               Coming soon
             </a>
           </Menu.Item>

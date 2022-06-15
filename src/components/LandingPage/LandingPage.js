@@ -13,6 +13,7 @@ import { FaDiscord, FaGithub, FaTwitter, FaTelegram } from 'react-icons/fa';
 
 import logo from '../../images/logo.png'
 import name from '../../images/name.png'
+import Promote from './subcomponents/Promote';
 
 const { Header, Footer, Sider, Content } = Layout;
 
@@ -178,7 +179,9 @@ export default class LandingPage extends Component {
           </Header>
           <Content>
             <FirstView />
+            <Promote />
             <Fifthview />
+            
             <SecondView />
             <ThirdView />
             <ForthView />
@@ -206,7 +209,6 @@ export default class LandingPage extends Component {
                 <a href='https://twitter.com/zerufinance' target="_blank">
                   <FaTwitter style={iconcss} />
                 </a>
-
 
               </Col>
 

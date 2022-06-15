@@ -27,7 +27,7 @@ export default class ThirdView extends Component {
               
                 <h3 style={{ color: 'white', fontWeight: '600' }}>Instant Loans</h3>
                 <p>
-                  Our protocol runs on smart contracts which are fast to  Get Loans Instantly, NO-KYC Required
+                As the core algorithm runs on smart contracts you never have to wait to get a loan. It's Instant, Period.
                 </p>
               
               
@@ -38,7 +38,7 @@ export default class ThirdView extends Component {
               <div>
                 <h3 style={{ color: 'white', fontWeight: '600' }}>Credit Card NFT</h3>
                 <p>
-                  Convert the credit you earned as NFT and use it as credit card to get credit from Zeru and other protocols.
+                Convert the credit you earned by minting an NFT and use it as a Credit card to get Credit from Zeru and other protocols.
                 </p>
               </div>
               
@@ -49,8 +49,7 @@ export default class ThirdView extends Component {
               <div>
                 <h3 style={{ color: 'white', fontWeight: '600' }}>Credit Delegation</h3>
                 <p>
-                  Delegate your credit to anyone as NFT. Delegate borrowing power (i.e. their credit) to other users.
-                </p>
+                Delegate your credit to anyone as NFT. Delegate borrowing power (i.e. your credit) to other users.                </p>
               </div>
               
             </Card>
