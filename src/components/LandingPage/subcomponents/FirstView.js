@@ -21,7 +21,6 @@ export default class FirstView extends Component {
             <FirstViewAnimatedComp />
           </Fade>
           </div>
-          
       </div>
     )
   }
