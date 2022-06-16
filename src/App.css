@@ -2,7 +2,7 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
-  font-family: 'Chakra petch',sans-serif;
+  font-family: 'Chakra petch', sans-serif;
 }
 
 .zeru {
@@ -46,9 +46,14 @@ body {
   font-weight: 500;
 }
 
-.featuresview{
+.featuresview {
+  font-size: 3rem;
+  min-height: 100vh;
+  color: white;
+  font-weight: 600;
   padding-top: 5rem;
   background: linear-gradient(126deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 30%, rgba(7, 47, 146, 1) 65%, rgba(4, 130, 201, 1) 100%, rgba(0, 212, 255, 1) 100%);
+  padding-bottom: 3rem;
 }
 
 .secondview {
@@ -154,7 +159,10 @@ body {
   font-weight: 500;
 }
 
-.roadmapview{
+.roadmapview {
+  font-size: 2rem;
+  color: white;
+  padding: 100px 0px;
   background: linear-gradient(306deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 30%, rgba(7, 47, 146, 1) 65%, rgba(4, 130, 201, 1) 100%, rgba(0, 212, 255, 1) 100%);
 }
 
@@ -391,8 +399,15 @@ p {
 /* Mobile responsive design */
 @media (max-width:1003px) {
 
-  .mobileHidden{
+  .mobileHidden {
     visibility: hidden;
+  }
+  .roadmapview{
+    font-size: 1.2rem;
+  }
+
+  .roadmapview img{
+    width: 300px;
   }
 
   .zeru {
@@ -406,7 +421,7 @@ p {
   .firstview {
     width: 100vw;
     min-height: 100vh;
-    background-color: #191919;
+    background-color: #0b0e14;
     color: white;
     font-size: 2rem;
     /* font-family: 'Poppins', sans-serif; */
@@ -555,10 +570,20 @@ p {
     width: 300px;
   }
 
+  .featuresview {
+    font-size: 1.8rem;
+    min-height: 100vh;
+    color: white;
+    font-weight: 600;
+    padding-top: 3rem;
+    background: linear-gradient(126deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 30%, rgba(7, 47, 146, 1) 65%, rgba(4, 130, 201, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    padding-bottom: 3rem;
+  }
+
 }
 
 @media (max-width:500px) {
-  .footer{
+  .footer {
     display: flex;
     align-items: center;
     justify-content: center;

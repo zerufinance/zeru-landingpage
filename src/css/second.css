@@ -15,6 +15,7 @@
     border-radius: 0.75rem;
     padding: 20px;
     min-height: 280px;
+    font-size: 1.8rem;
 }
 
 .featurediv img{
@@ -55,6 +56,18 @@
     animation: colorchangeanimation 5s infinite alternate;
 }
 
+.underline{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3px;
+    background: white;
+    /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); */
+    margin-bottom: 3rem;
+    background-size: 200%;
+    animation: colorchangeanimation 5s infinite alternate;
+}
+
 @keyframes colorchangeanimation {
     0% {
        background-position: left;
@@ -66,7 +79,24 @@
 }
 
 
-@media (max-width:640px) {
+@media (max-width:1003px) {
+
+    .featurediv {
+        color: black;
+        font-weight: 500;
+        background-color: white;
+        border-radius: 0.75rem;
+        padding: 20px;
+        width: 250px;
+        min-height: 280px;
+        font-size: 1.2rem;
+    }
+
+    .featurediv p {
+        font-size: 0.9rem;
+        max-width: 300px;
+        color: #2d2d2d;
+    }
 
     .gradientlinebottom {
         width: 300px;
@@ -77,6 +107,10 @@
         margin-left: 26px;
         background-size: 200%;
         animation: colorchangeanimation 5s infinite alternate;
+    }
+
+    .promotediv{
+        background: #0b0e14;
     }
 
 }

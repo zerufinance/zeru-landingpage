@@ -38,8 +38,6 @@ export default function Defiandnft() {
                             </span>
                         </Card>
                     </Slide>
-                        
-                       
                 </Col>
             </Row>
         </div>
