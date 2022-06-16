@@ -3,7 +3,8 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   font-family: 'Chakra petch', sans-serif;
-  background-color: #0b0e14;
+  background: radial-gradient(farthest-side at 800px 800px ,#0f296c,#0b0e14);
+  /* background-color: #0b0e14; */
 }
 
 .zeru {
@@ -395,6 +396,34 @@ p {
   align-items: center;
   margin-right: 0px;
 }
+
+
+.glass{
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Mobile responsive design */

@@ -10,6 +10,8 @@ export default class FirstView extends Component {
     return (
       <div className='firstview' id='firstview'>
 
+        
+
         <div className='center'>
           <Fade direction='up' duration="500" triggerOnce='true'>
             <FirstViewTextComp />
@@ -19,6 +21,7 @@ export default class FirstView extends Component {
             <FirstViewAnimatedComp />
           </Fade>
           </div>
+          
       </div>
     )
   }

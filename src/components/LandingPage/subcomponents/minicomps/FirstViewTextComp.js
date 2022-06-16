@@ -11,6 +11,8 @@ export default class FirstViewTextComp extends Component {
         <p>
         Bringing Credit Industry into Decentralized Finance World <br/>Enabling Zero Collateral Loans for everyone.
         </p>
+        <div className='glass'>
+        </div>
  
       </div>
     )
