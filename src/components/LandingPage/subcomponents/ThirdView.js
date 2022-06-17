@@ -36,9 +36,9 @@ export default class ThirdView extends Component {
           <Fade direction='up' duration={500} triggerOnce='true' fraction={1}>
             <Card className='cardintransfer' style={cardstyle}>
               <div>
-                <h3 style={{ color: 'white', fontWeight: '600' }}>Credit Card NFT</h3>
+                <h3 style={{ color: 'white', fontWeight: '600' }}>Smart Card NFT</h3>
                 <p>
-                Convert the credit you earned by minting an NFT and use it as a Credit card to get Credit from Zeru and other protocols.
+                Convert the credit you earned by minting an NFT and use it as a Smart card to get Credit from Zeru and other protocols.
                 </p>
               </div>
               

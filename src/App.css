@@ -623,7 +623,7 @@ p {
     gap: 1rem;
   }
   .createdwithlove{
-    font-size: 0.5rem;
+    display: none;
   }
 
 }
