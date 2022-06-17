@@ -5,7 +5,7 @@ import roadmap from '../../../images/roadmap.png'
 export default class Roadmap extends Component {
   render() {
     return (
-      <div className='roadmapview' style={{  }}>
+      <div className='roadmapview' id='roadmap'>
         <Fade direction='up' duration="500" triggerOnce='true'>
           <h1 style={{ color: 'white', marginBottom: '0px' }}>Roadmap</h1>
           <div className='underline'>

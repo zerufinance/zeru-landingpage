@@ -54,7 +54,7 @@ export default class LandingPage extends Component {
               <Col span={12} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center',fontFamily:'Chakra petch' }}>
                 <img src={logo} width={30} />
                 <img src={name} width={100} />
-                <span style={{float:'right'}}>
+                <span className='createdwithlove' style={{float:'right'}}>
                 Created with ❤️ by Team Zeru
                 </span>
                 
@@ -77,9 +77,6 @@ export default class LandingPage extends Component {
 
             </Row>
             </Fade>
-            
-
-
 
           </Footer>
         </Layout>

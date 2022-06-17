@@ -48,7 +48,7 @@ body {
   font-weight: 500;
 }
 
-.featuresview {
+.features {
   font-size: 3rem;
   min-height: 100vh;
   color: white;
@@ -148,7 +148,7 @@ body {
 }
 
 
-#thirdview {
+#transferablenft {
   font-weight: 800;
   /* font-family: 'Poppins'; */
   font-family: 'Chakra Petch', sans-serif;
@@ -156,7 +156,7 @@ body {
   padding-bottom: 100px;
 }
 
-#thirdview p {
+#transferablenft p {
   font-size: 1.1rem;
   font-weight: 500;
 }
@@ -169,13 +169,13 @@ body {
 }
 
 
-#forthview {
+#community {
   /* font-family: 'Poppins'; */
   font-family: 'Chakra Petch', sans-serif;
   font-weight: 800;
 }
 
-#forthview p {
+#community p {
   font-size: 1.2rem;
   font-weight: 500;
 }
@@ -215,7 +215,7 @@ body {
   font-size: 1rem;
 }
 
-#fifthview {
+.fifthview {
   width: 100vw;
   min-height: 100vh;
   background-color: white;
@@ -233,7 +233,7 @@ body {
 .heading {
   font-size: 3rem;
   font-weight: 800;
-  margin-top: 30px;
+  padding-top: 4rem;
   /* font-family: 'Poppins', sans-serif; */
   font-family: 'Chakra Petch', sans-serif;
   color: #2A0766;
@@ -427,7 +427,7 @@ p {
 
 
 /* Mobile responsive design */
-@media (max-width:1003px) {
+@media (max-width:1200px) {
 
   .mobileHidden {
     visibility: hidden;
@@ -522,7 +522,7 @@ p {
   }
 
   .secondviewitems {
-    text-align: left;
+    text-align: center;
     padding-top: 20px;
     padding-left: 30px;
     padding-right: 20px;
@@ -531,7 +531,7 @@ p {
   }
 
   .secondviewitems {
-    text-align: left;
+    text-align: center;
     color: white;
     font-size: 1.8rem;
   }
@@ -559,10 +559,11 @@ p {
     padding-top: 30px;
     font-size: 1.8rem;
     margin: 10px;
-    text-align: right;
+    text-align: center;
   }
 
   .textmargin p {
+    text-align:center;
     font-size: 0.9rem;
   }
 
@@ -577,7 +578,7 @@ p {
     overflow: hidden;
   }
 
-  #forthview {
+  #community {
     margin-top: 0px;
     padding-top: 0px;
     /* font-family: 'Poppins'; */
@@ -586,7 +587,7 @@ p {
     font-weight: 800;
   }
 
-  #forthview p {
+  #community p {
     font-weight: 400;
     font-size: 0.9rem;
   }
@@ -600,7 +601,7 @@ p {
     width: 300px;
   }
 
-  .featuresview {
+  .features {
     font-size: 1.8rem;
     min-height: 100vh;
     color: white;
@@ -613,12 +614,16 @@ p {
 }
 
 @media (max-width:500px) {
+
   .footer {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 1rem;
+  }
+  .createdwithlove{
+    font-size: 0.5rem;
   }
 
 }

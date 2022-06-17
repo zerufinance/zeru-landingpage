@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Row, Col } from 'antd';
+import { Row } from 'antd';
 import { Card } from 'antd';
 import { Fade } from 'react-awesome-reveal';
 
@@ -13,7 +13,7 @@ const cardstyle = {
 export default class ThirdView extends Component {
   render() {
     return (
-      <div id='thirdview' className='commonview' >
+      <div id='transferablenft' className='commonview' >
         <Fade direction='left' duration={500} triggerOnce='true' fraction={1}>
           <div className='textmargin'>
             Transferable <span className='gradientext4'>NFT's</span>

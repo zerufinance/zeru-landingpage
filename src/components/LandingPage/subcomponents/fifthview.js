@@ -1,22 +1,18 @@
 import React, { Component } from 'react'
-import { Row, Col } from 'antd';
 import credit from '../../../images/credit1.png'
 import freeupcollateral from '../../../images/freeupcollateral1.png'
-import users from '../../../images/user.png'
-import institution from '../../../images/institution.png'
 import community from '../../../images/community1.png'
 import { Fade } from 'react-awesome-reveal';
-import Feature from './minicomps/Feature';
 import '../../../css/second.css'
 
 
 export default class fifthview extends Component {
     render() {
         return (
-            <div id='fifthview'>
+            <div className='fifthview' id='zerocollateral'>
                 
 
-                <Fade direction='up' duration={500} triggerOnce='true' fraction={1}>
+                <Fade direction='up' duration={500} triggerOnce='true' fraction={0.3}>
                     <div className='heading'>
                         Zero Collateral Loans
                         <div className='gradientlinebottom'>

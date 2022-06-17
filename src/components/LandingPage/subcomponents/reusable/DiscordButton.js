@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { DownloadOutlined } from '@ant-design/icons';
-import { Button, Radio } from 'antd';
+import { Button } from 'antd';
 import { FaDiscord } from 'react-icons/fa'
 
 

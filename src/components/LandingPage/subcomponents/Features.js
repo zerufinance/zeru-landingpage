@@ -1,29 +1,33 @@
 import React, { Component } from 'react'
-import { Card } from 'antd';
 import { Row } from 'antd'
 import Feature from './minicomps/Feature';
 import { Fade } from 'react-awesome-reveal';
-
-import featurebackground from '../../../images/featurebackground.png'
-
+import featureone from '../../../images/featureone.png'
+import featuretwo from '../../../images/featuretwo.png'
+import featurethree from '../../../images/featurethree.png'
 
 export default class Features extends Component {
     render() {
         return (
-            <div className='featuresview' >
-                Features
-                <div className='underline'>
-                </div>
-                <br />
+            <div className='features' id='features' >
+                <Fade duration={500} direction='up' triggerOnce='true' fraction={1}>
+                    <div>
+                        Features
+                        <div className='underline'>
+                        </div>
+                    </div>
+
+                </Fade>
+
                 <Row style={{ display: 'flex', justifyContent: 'space-around', flexDirection: 'row', textAlign: 'left', gap: '2rem' }}>
                     <Fade direction='left' duration={500} triggerOnce fraction={0.5}>
-                        <Feature title="Zero Collateral Loans" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pretium orci ut libero scelerisque venenatis. Sed egestas eros ac tellus eleifend convallis. Nam luctus vulputate velit, vitae faucibus urna lobortis eu." img={featurebackground}/>
+                        <Feature title="Zero Collateral Loans" img={featureone} />
                     </Fade>
                     <Fade direction='up' duration={500} triggerOnce fraction={0.5}>
-                        <Feature title="Credit Card NFT's" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pretium orci ut libero scelerisque venenatis. Sed egestas eros ac tellus eleifend convallis. Nam luctus vulputate velit, vitae faucibus urna lobortis eu." img={featurebackground}/>
+                        <Feature title="Smart Card NFT's" img={featuretwo} />
                     </Fade>
                     <Fade direction='right' duration={500} triggerOnce fraction={0.5}>
-                        <Feature title="To Be Revealed" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pretium orci ut libero scelerisque venenatis. Sed egestas eros ac tellus eleifend convallis. Nam luctus vulputate velit, vitae faucibus urna lobortis eu." img={featurebackground}/>
+                        <Feature title="" img={featurethree} />
                     </Fade>
                 </Row>
             </div>

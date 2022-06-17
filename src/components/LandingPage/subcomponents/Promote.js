@@ -1,11 +1,9 @@
 import React from 'react'
 import { Card } from 'antd';
-import DiscordButton from './reusable/DiscordButton';
 import '../../../css/second.css'
 
-import { Button, Radio } from 'antd';
+import { Button } from 'antd';
 import { FaDiscord } from 'react-icons/fa'
-import { Fade, Flip,Roll,Shake } from 'react-awesome-reveal';
 
 const center = {
     display: 'flex',
