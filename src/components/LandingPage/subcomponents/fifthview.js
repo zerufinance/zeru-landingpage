@@ -14,34 +14,7 @@ export default class fifthview extends Component {
     render() {
         return (
             <div id='fifthview'>
-                {/* <Fade direction='up' duration={500} triggerOnce='true' fraction={1}>
-                    <div className='heading'>
-                        Zero Collateral Loans
-                        <div className='gradientlinebottom'>
-                        </div>
-                        <p style={{ fontSize: '1rem' }}>Enabling Zero collateral loans to everyone in the world</p>
-                    </div>
-                </Fade>
-                <div className='featurecontainer'>
-                    <Fade direction='left' duration={500} triggerOnce='true' fraction={1}>
-                        <Feature title="Get line of Credit" text=" orem Ipsum, sometimes referred to as 'lipsum', is the placeholder text used in design when creating content." img={credit} width={60} />
-                    
-                        
-                    </Fade>
-                    <Fade direction='up' duration={500} triggerOnce='true' fraction={1}>
-                   
-                        <Feature title="Free up your collateral" text=" orem Ipsum, sometimes referred to as 'lipsum', is the placeholder text used in design when creating content." img={freeupcollateral} width={60}/>
-
-                    
-                    </Fade>
-                    <Fade direction='right' duration={500} triggerOnce='true' fraction={1}>
-                    
-                    
-                        <Feature title="Community First" text=" Loans are given out to both Retail Borrowers and Institutional Borrowers alike." img={users} width={60}/>
-                   
-                    </Fade>
-                    
-                </div> */}
+                
 
                 <Fade direction='up' duration={500} triggerOnce='true' fraction={1}>
                     <div className='heading'>
@@ -54,7 +27,7 @@ export default class fifthview extends Component {
                 </Fade>
 
                 <div className='secondcenter'>
-                    <Fade direction='left' duration={500} triggerOnce='true' fraction={1}>
+                    <Fade direction='left' duration={500} triggerOnce='true' fraction={0.5}>
                         <div className='d1'>
                             <div className='gradientline'>
                             </div>
@@ -64,7 +37,7 @@ export default class fifthview extends Component {
                             </p>
                         </div>
                     </Fade>
-                    <Fade direction='right' duration={500} triggerOnce='true' fraction={1}>
+                    <Fade direction='right' duration={500} triggerOnce='true' fraction={0.5}>
                         <div className='d2'>
                             <img src={credit} alt="get credit" width={200} />
                         </div>
@@ -73,12 +46,12 @@ export default class fifthview extends Component {
                 </div>
 
                 <div className='secondcenter'>
-                    <Fade direction='left' duration={500} triggerOnce='true' fraction={1}>
+                    <Fade direction='left' duration={500} triggerOnce='true' fraction={0.5}>
                         <div className='d2'>
                             <img src={freeupcollateral} alt="get credit" width={200} />
                         </div>
                     </Fade>
-                    <Fade direction='right' duration={500} triggerOnce='true' fraction={1}>
+                    <Fade direction='right' duration={500} triggerOnce='true' fraction={0.5}>
                         <div className='d1'>
                             <div className='gradientline'>
                             </div>
@@ -92,7 +65,7 @@ export default class fifthview extends Component {
                 </div>
 
                 <div className='secondcenter'>
-                    <Fade direction='left' duration={500} triggerOnce='true' fraction={1}>
+                    <Fade direction='left' duration={500} triggerOnce='true' fraction={0.5}>
                         <div className='d1'>
                             <div className='gradientline'>
                             </div>
@@ -102,7 +75,7 @@ export default class fifthview extends Component {
                             </p>
                         </div>
                     </Fade>
-                    <Fade direction='right' duration={500} triggerOnce='true' >
+                    <Fade direction='right' duration={500} triggerOnce='true' fraction={0.5}>
                         <div className='d2'>
                             <div className='id1'>
                                 <img src={community} alt="get credit" width={200} />

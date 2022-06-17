@@ -11,22 +11,15 @@
 .featurediv {
     color: black;
     font-weight: 500;
-    background-color: white;
+    /* background-image: url(../images/featurebackground.png); */
+    background-size: 100%;
     border-radius: 0.75rem;
     padding: 20px;
-    min-height: 280px;
+    min-height: 300px;
+    width: 300px;
     font-size: 1.8rem;
 }
 
-.featurediv img{
-    margin-left: 15px;
-}
-
-.featurediv p {
-    font-size: 1rem;
-    max-width: 300px;
-    color: #2d2d2d;
-}
 
 .gradientline {
     width: 100px;
@@ -84,18 +77,11 @@
     .featurediv {
         color: black;
         font-weight: 500;
-        background-color: white;
         border-radius: 0.75rem;
         padding: 20px;
         width: 250px;
-        min-height: 280px;
+        min-height: 250px;
         font-size: 1.2rem;
-    }
-
-    .featurediv p {
-        font-size: 0.9rem;
-        max-width: 300px;
-        color: #2d2d2d;
     }
 
     .gradientlinebottom {
@@ -110,7 +96,7 @@
     }
 
     .promotediv{
-        background: #0b0e14;
+        background: transparent;
     }
 
 }

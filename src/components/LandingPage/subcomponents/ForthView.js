@@ -7,20 +7,22 @@ import DiscordButton from './reusable/DiscordButton'
 export default class ForthView extends Component {
   render() {
     return (
-      <div id='forthview' className='commonview' style={{color:'#150333',background:'white'}}>
+      <div id='forthview' className='commonview' style={{ color: '#150333', background: 'white' }}>
         <div className='top' >
           <Fade duration={500} direction='down' triggerOnce='true' fraction={1}>
             <div className='communitydiv'>
               Will be Governed by community ❤️
-              <p style={{color:'#20054c'}}>
+              <p style={{ color: '#20054c' }}>
                 Zeru will be fully Decentralized, Community governed protocol.
               </p>
               <DiscordButton value="Join Discord" />
             </div>
           </Fade>
-          
+          <Fade duration={500} triggerOnce='true' fraction={1}>
             <img src={community} alt="Logo" width={500} />
-          
+          </Fade>
+
+
         </div>
       </div>
     )

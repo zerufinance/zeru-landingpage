@@ -4,15 +4,9 @@ export default class Feature extends Component {
 
     render() {
         return (
-            <div className='featurediv'>
-                 <img src={this.props.img} width={this.props.width} style={{marginBottom:'10px'}}/>
-                <div className='gradientline'>
-                </div>
-                <div>
+            <div className='featurediv' style={{backgroundImage:`url(${this.props.img})`}}>
+                <div style={{textAlign:'center',marginTop:'6rem',marginBottom:'auto'}}>
                     {this.props.title}
-                </div>
-                <div>
-                    <p>{this.props.text}</p>
                 </div>
             </div>
         )

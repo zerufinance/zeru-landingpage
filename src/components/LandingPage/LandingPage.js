@@ -9,11 +9,12 @@ import { Col, Layout, Row } from 'antd';
 
 import { FaDiscord, FaGithub, FaTwitter, FaTelegram } from 'react-icons/fa';
 
-import logo from '../../images/logo.png'
+import logo from '../../images/logo2.png'
 import name from '../../images/name.png'
 import Promote from './subcomponents/Promote';
 import Features from './subcomponents/Features';
 import Roadmap from './subcomponents/Roadmap';
+import { Fade } from 'react-awesome-reveal';
 
 const { Header, Footer, Content } = Layout;
 
@@ -48,13 +49,14 @@ export default class LandingPage extends Component {
             <ForthView />
           </Content>
           <Footer style={{ background: '#0b0e14', color: 'white', }} >
+            <Fade direction='down' duration={500} triggerOnce>
             <Row className='footer'>
               <Col span={12} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center',fontFamily:'Chakra petch' }}>
-                <img src={logo} width={50} />
-                <img src={name} width={150} />
-                {/* <span style={{float:'right'}}>
+                <img src={logo} width={30} />
+                <img src={name} width={100} />
+                <span style={{float:'right'}}>
                 Created with ❤️ by Team Zeru
-                </span> */}
+                </span>
                 
               </Col>
               <Col span={12} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '2rem' }}>
@@ -74,6 +76,8 @@ export default class LandingPage extends Component {
               </Col>
 
             </Row>
+            </Fade>
+            
 
 
 

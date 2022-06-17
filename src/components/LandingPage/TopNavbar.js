@@ -1,11 +1,8 @@
 import React, { Component } from 'react'
 import '../../css/nav.css'
 import { Button, Menu, Row } from 'antd';
-import logo from '../../images/logo.png'
+import logo from '../../images/logo2.png'
 import name from '../../images/name.png'
-
-import { Drawer } from 'antd';
-import { useState } from 'react';
 
 const menuitem = {
   background: 'transparent',
@@ -16,33 +13,11 @@ const anchoritem = {
 
 export default function TopNavbar() {
 
-  const [visible, setVisible] = useState(false);
-
-  const showDrawer = () => {
-    setVisible(true);
-  };
-
-  const onClose = () => {
-    setVisible(false);
-  };
-
-
 
   return (
     <div>
       <img src={logo} width={30} style={{ float: 'left', marginTop: '15px' }} />
       <img src={name} width={130} style={{ float: 'left', marginTop: '11px', marginLeft: '7px' }} />
-
-      {/* <div style={{float:'right',position:'fixed'}}>
-        <Button type="primary" onClick={showDrawer}>
-          Open
-        </Button>
-        <Drawer title="Basic Drawer" placement="right" onClose={onClose} visible={visible}>
-          <p>Some contents...</p>
-          <p>Some contents...</p>
-          <p>Some contents...</p>
-        </Drawer>
-      </div> */}
 
       <div className='mobileHidden'>
 
