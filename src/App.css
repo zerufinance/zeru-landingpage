@@ -2,6 +2,9 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
+  font-family: 'Chakra petch', sans-serif;
+  background: #0b0e14;
+  /* background-color: #0b0e14; */
 }
 
 .zeru {
@@ -45,13 +48,23 @@ body {
   font-weight: 500;
 }
 
+.features {
+  font-size: 3rem;
+  min-height: 100vh;
+  color: white;
+  font-weight: 600;
+  padding-top: 5rem;
+  background: linear-gradient(126deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 30%, rgba(7, 47, 146, 1) 65%, rgba(4, 130, 201, 1) 100%, rgba(0, 212, 255, 1) 100%);
+  padding-bottom: 3rem;
+}
+
 .secondview {
   width: 100vw;
   min-height: 100vh;
   color: #070c38;
   font-size: 3.5rem;
   /* background-color: #f0f7ff; */
-  background: rgb(2, 0, 36);
+  /* background: rgb(2, 0, 36); */
   background: linear-gradient(126deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 30%, rgba(7, 47, 146, 1) 65%, rgba(4, 130, 201, 1) 100%, rgba(0, 212, 255, 1) 100%);
   /* font-family: 'Poppins', sans-serif; */
   font-family: 'Chakra Petch', sans-serif;
@@ -81,11 +94,17 @@ body {
   font-size: 4rem;
 }
 
+
 .defiandnftcardrow {
   margin-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.defiandnftcardrow p{
+  color: #070661;
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 
 
@@ -135,7 +154,7 @@ body {
 }
 
 
-#thirdview {
+#transferablenft {
   font-weight: 800;
   /* font-family: 'Poppins'; */
   font-family: 'Chakra Petch', sans-serif;
@@ -143,18 +162,26 @@ body {
   padding-bottom: 100px;
 }
 
-#thirdview p {
+#transferablenft p {
   font-size: 1.1rem;
   font-weight: 500;
 }
 
-#forthview {
+.roadmapview {
+  font-size: 2rem;
+  color: white;
+  padding: 100px 0px;
+  background: linear-gradient(306deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 30%, rgba(7, 47, 146, 1) 65%, rgba(4, 130, 201, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+
+#community {
   /* font-family: 'Poppins'; */
   font-family: 'Chakra Petch', sans-serif;
   font-weight: 800;
 }
 
-#forthview p {
+#community p {
   font-size: 1.2rem;
   font-weight: 500;
 }
@@ -194,7 +221,7 @@ body {
   font-size: 1rem;
 }
 
-#fifthview {
+.fifthview {
   width: 100vw;
   min-height: 100vh;
   background-color: white;
@@ -212,7 +239,7 @@ body {
 .heading {
   font-size: 3rem;
   font-weight: 800;
-  margin-top: 30px;
+  padding-top: 4rem;
   /* font-family: 'Poppins', sans-serif; */
   font-family: 'Chakra Petch', sans-serif;
   color: #2A0766;
@@ -288,7 +315,7 @@ p {
 .ant-menu>.ant-menu-submenu-selected,
 .ant-menu>.ant-menu-submenu:hover {
   /* background: -webkit-linear-gradient(right, rgb(103, 117, 220), rgb(255, 0, 249)); */
-  background: #191919;
+  background: #0b0e14;
   color: #d000c4 !important;
 }
 
@@ -377,11 +404,47 @@ p {
 }
 
 
-/* Mobile responsive design */
-@media (max-width:1003px) {
+.glass{
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  transition: 0.5s;
+}
 
-  .mobileHidden{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile responsive design */
+@media (max-width:1200px) {
+
+  .mobileHidden {
     visibility: hidden;
+  }
+  .roadmapview{
+    font-size: 1.2rem;
+    padding: 30px 0;
+  }
+
+  .roadmapview img{
+    width: 300px;
   }
 
   .zeru {
@@ -395,7 +458,7 @@ p {
   .firstview {
     width: 100vw;
     min-height: 100vh;
-    background-color: #191919;
+    background-color: transparent;
     color: white;
     font-size: 2rem;
     /* font-family: 'Poppins', sans-serif; */
@@ -419,7 +482,6 @@ p {
   .heading {
     font-size: 1.8rem;
     font-weight: 800;
-    margin-top: 30px;
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Chakra Petch', sans-serif;
     color: #2A0766;
@@ -466,7 +528,7 @@ p {
   }
 
   .secondviewitems {
-    text-align: left;
+    text-align: center;
     padding-top: 20px;
     padding-left: 30px;
     padding-right: 20px;
@@ -475,7 +537,7 @@ p {
   }
 
   .secondviewitems {
-    text-align: left;
+    text-align: center;
     color: white;
     font-size: 1.8rem;
   }
@@ -503,10 +565,11 @@ p {
     padding-top: 30px;
     font-size: 1.8rem;
     margin: 10px;
-    text-align: right;
+    text-align: center;
   }
 
   .textmargin p {
+    text-align:center;
     font-size: 0.9rem;
   }
 
@@ -521,7 +584,7 @@ p {
     overflow: hidden;
   }
 
-  #forthview {
+  #community {
     margin-top: 0px;
     padding-top: 0px;
     /* font-family: 'Poppins'; */
@@ -530,7 +593,7 @@ p {
     font-weight: 800;
   }
 
-  #forthview p {
+  #community p {
     font-weight: 400;
     font-size: 0.9rem;
   }
@@ -542,6 +605,37 @@ p {
 
   .top img {
     width: 300px;
+  }
+
+  .features {
+    font-size: 1.8rem;
+    min-height: 100vh;
+    color: white;
+    font-weight: 600;
+    padding-top: 3rem;
+    background: linear-gradient(126deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 30%, rgba(7, 47, 146, 1) 65%, rgba(4, 130, 201, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    padding-bottom: 3rem;
+  }
+
+
+  .bringingcard p{
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+}
+
+@media (max-width:500px) {
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .createdwithlove{
+    display: none;
   }
 
 }

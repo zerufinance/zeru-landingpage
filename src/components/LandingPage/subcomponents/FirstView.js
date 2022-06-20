@@ -9,7 +9,6 @@ export default class FirstView extends Component {
   render() {
     return (
       <div className='firstview' id='firstview'>
-
         <div className='center'>
           <Fade direction='up' duration="500" triggerOnce='true'>
             <FirstViewTextComp />

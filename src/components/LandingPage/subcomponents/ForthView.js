@@ -1,27 +1,27 @@
 import React, { Component } from 'react'
 import { Fade } from 'react-awesome-reveal'
-import community from '../../../images/community.jpg'
+import community from '../../../images/community-new.png'
 import DiscordButton from './reusable/DiscordButton'
 
 
 export default class ForthView extends Component {
   render() {
     return (
-      <div id='forthview' className='commonview' style={{color:'#150333',background:'white'}}>
+      <div id='community' className='commonview' style={{ color: '#150333', background: 'white' }}>
         <div className='top' >
-          <Fade duration={500} direction='down' triggerOnce='true' fraction={1}>
+          <Fade duration={500} direction='down' triggerOnce='true' >
             <div className='communitydiv'>
               Will be Governed by community ❤️
-              <p style={{color:'#20054c'}}>
+              <p style={{ color: '#20054c' }}>
                 Zeru will be fully Decentralized, Community governed protocol.
               </p>
               <DiscordButton value="Join Discord" />
             </div>
           </Fade>
-          
+          <Fade duration={500} triggerOnce='true' fraction={0.3}>
             <img src={community} alt="Logo" width={500} />
-          
-          
+          </Fade>
+
         </div>
       </div>
     )

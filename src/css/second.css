@@ -5,26 +5,20 @@
     justify-content: center;
     text-align: left;
     font-size: 1.5rem;
-    gap: 2rem;
 }
 
 .featurediv {
-
-    background-color: #0b0e14;
+    color: black;
+    font-weight: 500;
+    /* background-image: url(../images/featurebackground.png); */
+    background-size: 100%;
     border-radius: 0.75rem;
     padding: 20px;
-    min-height: 280px;
+    min-height: 400px;
+    width: 400px;
+    font-size: 1.8rem;
 }
 
-.featurediv img{
-    margin-left: 15px;
-}
-
-.featurediv p {
-    font-size: 1rem;
-    max-width: 300px;
-    color: #7d7d7d;
-}
 
 .gradientline {
     width: 100px;
@@ -36,12 +30,32 @@
     animation: colorchangeanimation 5s infinite alternate;
 }
 
+.promote{
+    background: -webkit-linear-gradient(126deg, #ffb300, #ff00ea,rgb(0, 38, 255));
+    background-size: 150%;
+    animation: colorchangeanimation 3s infinite alternate;
+    border: none;
+    color: black;
+}
+
 .gradientlinebottom {
     width: 500px;
     height: 3px;
     background: -webkit-linear-gradient(left, #ffd000, #ffb300, #e100ff, #50f);
     /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); */
     margin-bottom: 1rem;
+    background-size: 200%;
+    animation: colorchangeanimation 5s infinite alternate;
+}
+
+.underline{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3px;
+    background: white;
+    /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); */
+    margin-bottom: 3rem;
     background-size: 200%;
     animation: colorchangeanimation 5s infinite alternate;
 }
@@ -57,7 +71,23 @@
 }
 
 
-@media (max-width:640px) {
+@media (max-width:1003px) {
+
+    .promote{
+        background: -webkit-linear-gradient(126deg, #ffb300, #ff00ea,rgb(0, 38, 255));
+        border: none;
+        color: black;
+    }
+
+    .featurediv {
+        color: black;
+        font-weight: 500;
+        border-radius: 0.75rem;
+        padding: 20px;
+        width: 250px;
+        min-height: 250px;
+        font-size: 1.2rem;
+    }
 
     .gradientlinebottom {
         width: 300px;
@@ -68,6 +98,10 @@
         margin-left: 26px;
         background-size: 200%;
         animation: colorchangeanimation 5s infinite alternate;
+    }
+
+    .promotediv{
+        background: transparent;
     }
 
 }

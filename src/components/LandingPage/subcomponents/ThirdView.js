@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Row, Col } from 'antd';
+import { Row } from 'antd';
 import { Card } from 'antd';
 import { Fade } from 'react-awesome-reveal';
 
@@ -13,7 +13,7 @@ const cardstyle = {
 export default class ThirdView extends Component {
   render() {
     return (
-      <div id='thirdview' className='commonview' >
+      <div id='transferablenft' className='commonview' >
         <Fade direction='left' duration={500} triggerOnce='true' >
           <div className='textmargin'>
             Transferable <span className='gradientext4'>NFT's</span>
@@ -22,35 +22,34 @@ export default class ThirdView extends Component {
         </Fade>
         
         <Row style={{ display: 'flex', justifyContent: 'space-around', }}>
-          <Fade direction='left' duration={500} triggerOnce='true' fraction={1}>
+          <Fade direction='left' duration={500} triggerOnce='true' fraction={0.5}>
             <Card className='cardintransfer' style={cardstyle}>
               
                 <h3 style={{ color: 'white', fontWeight: '600' }}>Instant Loans</h3>
                 <p>
-                  Our protocol runs on smart contracts which are fast to  Get Loans Instantly, NO-KYC Required
+                As the core algorithm runs on smart contracts you never have to wait to get a loan. It's Instant, Period.
                 </p>
               
               
             </Card>
           </Fade>
-          <Fade direction='up' duration={500} triggerOnce='true' fraction={1}>
+          <Fade direction='up' duration={500} triggerOnce='true' fraction={0.5}>
             <Card className='cardintransfer' style={cardstyle}>
               <div>
-                <h3 style={{ color: 'white', fontWeight: '600' }}>Credit Card NFT</h3>
+                <h3 style={{ color: 'white', fontWeight: '600' }}>Smart Card NFT</h3>
                 <p>
-                  Convert the credit you earned as NFT and use it as credit card to get credit from Zeru and other protocols.
+                Convert the credit you earned by minting an NFT and use it as a Smart card to get Credit from Zeru and other protocols.
                 </p>
               </div>
               
             </Card>
           </Fade>
-          <Fade direction='right' duration={500} triggerOnce='true' fraction={1}>
+          <Fade direction='right' duration={500} triggerOnce='true' fraction={0.5}>
             <Card className='cardintransfer' style={cardstyle}>
               <div>
                 <h3 style={{ color: 'white', fontWeight: '600' }}>Credit Delegation</h3>
                 <p>
-                  Delegate your credit to anyone as NFT. Delegate borrowing power (i.e. their credit) to other users.
-                </p>
+                Delegate your credit to anyone as NFT. Delegate borrowing power (i.e. your credit) to other users.                </p>
               </div>
               
             </Card>
