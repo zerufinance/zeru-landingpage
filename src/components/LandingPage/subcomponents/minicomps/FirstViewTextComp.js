@@ -7,7 +7,8 @@ export default class FirstViewTextComp extends Component {
       
       <div id='firstviewtextcomp'>
         <span className=''>Credit Industry
-        </span> of the Defi World with <span className='gradientext'>Zero-Collateral </span>Loans
+         of Defi World with 
+         <span className='gradientext'>Zero-Collateral Loans</span> </span>
         <p>
         Bringing Credit Industry into Decentralized Finance World <br/>Enabling Zero Collateral Loans for everyone.
         </p>
