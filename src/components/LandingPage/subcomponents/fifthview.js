@@ -12,7 +12,7 @@ export default class fifthview extends Component {
             <div className='fifthview' id='zerocollateral'>
                 
 
-                <Fade direction='up' duration={500} triggerOnce='true' fraction={0.3}>
+                <Fade direction='up' duration={500} triggerOnce='true' >
                     <div className='heading'>
                         Zero Collateral Loans
                         <div className='gradientlinebottom'>

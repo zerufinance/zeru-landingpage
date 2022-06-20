@@ -10,7 +10,7 @@ export default class Features extends Component {
     render() {
         return (
             <div className='features' id='features' >
-                <Fade duration={500} direction='up' triggerOnce='true' fraction={1}>
+                <Fade duration={500} direction='up' triggerOnce='true' >
                     <div>
                         Features
                         <div className='underline'>

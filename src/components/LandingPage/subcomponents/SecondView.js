@@ -11,7 +11,7 @@ export default class SecondView extends Component {
         <Row >
 
           <Col span={24} className='secondviewitems' style={{ color: 'white', background: 'transparent' }}>
-            <Fade duration={500} direction='up' triggerOnce='true' fraction={1}>
+            <Fade duration={500} direction='up' triggerOnce='true'>
               <div>
                 Integrating DEFI with NFT
                 <p>Bringing Decentralized Finance and NFT together</p>

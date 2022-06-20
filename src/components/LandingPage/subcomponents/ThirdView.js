@@ -14,7 +14,7 @@ export default class ThirdView extends Component {
   render() {
     return (
       <div id='transferablenft' className='commonview' >
-        <Fade direction='left' duration={500} triggerOnce='true' fraction={1}>
+        <Fade direction='left' duration={500} triggerOnce='true' >
           <div className='textmargin'>
             Transferable <span className='gradientext4'>NFT's</span>
             <p style={{fontSize:'1.2rem',fontWeight:'500'}}>Transfer your credit to anyone as NFT.</p>
@@ -22,7 +22,7 @@ export default class ThirdView extends Component {
         </Fade>
         
         <Row style={{ display: 'flex', justifyContent: 'space-around', }}>
-          <Fade direction='left' duration={500} triggerOnce='true' fraction={1}>
+          <Fade direction='left' duration={500} triggerOnce='true' fraction={0.5}>
             <Card className='cardintransfer' style={cardstyle}>
               
                 <h3 style={{ color: 'white', fontWeight: '600' }}>Instant Loans</h3>
@@ -33,7 +33,7 @@ export default class ThirdView extends Component {
               
             </Card>
           </Fade>
-          <Fade direction='up' duration={500} triggerOnce='true' fraction={1}>
+          <Fade direction='up' duration={500} triggerOnce='true' fraction={0.5}>
             <Card className='cardintransfer' style={cardstyle}>
               <div>
                 <h3 style={{ color: 'white', fontWeight: '600' }}>Smart Card NFT</h3>
@@ -44,7 +44,7 @@ export default class ThirdView extends Component {
               
             </Card>
           </Fade>
-          <Fade direction='right' duration={500} triggerOnce='true' fraction={1}>
+          <Fade direction='right' duration={500} triggerOnce='true' fraction={0.5}>
             <Card className='cardintransfer' style={cardstyle}>
               <div>
                 <h3 style={{ color: 'white', fontWeight: '600' }}>Credit Delegation</h3>

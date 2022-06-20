@@ -9,7 +9,7 @@ export default class ForthView extends Component {
     return (
       <div id='community' className='commonview' style={{ color: '#150333', background: 'white' }}>
         <div className='top' >
-          <Fade duration={500} direction='down' triggerOnce='true' fraction={1}>
+          <Fade duration={500} direction='down' triggerOnce='true' >
             <div className='communitydiv'>
               Will be Governed by community ❤️
               <p style={{ color: '#20054c' }}>
@@ -18,7 +18,7 @@ export default class ForthView extends Component {
               <DiscordButton value="Join Discord" />
             </div>
           </Fade>
-          <Fade duration={500} triggerOnce='true' fraction={1}>
+          <Fade duration={500} triggerOnce='true' fraction={0.3}>
             <img src={community} alt="Logo" width={500} />
           </Fade>
 
