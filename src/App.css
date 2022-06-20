@@ -3,7 +3,7 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   font-family: 'Chakra petch', sans-serif;
-  background: radial-gradient(farthest-side at 800px 800px ,#0f296c,#0b0e14);
+  background: #0b0e14;
   /* background-color: #0b0e14; */
 }
 
@@ -94,11 +94,17 @@ body {
   font-size: 4rem;
 }
 
+
 .defiandnftcardrow {
   margin-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.defiandnftcardrow p{
+  color: #070661;
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 
 
@@ -609,6 +615,12 @@ p {
     padding-top: 3rem;
     background: linear-gradient(126deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 30%, rgba(7, 47, 146, 1) 65%, rgba(4, 130, 201, 1) 100%, rgba(0, 212, 255, 1) 100%);
     padding-bottom: 3rem;
+  }
+
+
+  .bringingcard p{
+    font-size: 1.2rem;
+    font-weight: 600;
   }
 
 }

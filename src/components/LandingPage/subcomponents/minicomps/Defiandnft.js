@@ -17,6 +17,7 @@ export default function Defiandnft() {
                                 <span className='gradientext4'>
                                     DEFI
                                 </span>
+                                <p>Credit</p>
                             </Card>
                         </Fade>
                     </div>
@@ -36,6 +37,7 @@ export default function Defiandnft() {
                             <span className='gradientext4'>
                                 NFT
                             </span>
+                            <p>Smart Cards</p>
                         </Card>
                     </Fade>
                 </Col>

@@ -19,7 +19,7 @@ export default class Features extends Component {
 
                 </Fade>
 
-                <Row style={{ display: 'flex', justifyContent: 'space-around', flexDirection: 'row', textAlign: 'left', gap: '2rem' }}>
+                <Row style={{ display: 'flex', justifyContent: 'space-evenly', flexDirection: 'row', textAlign: 'left',gap:'1rem' }}>
                     <Fade direction='left' duration={500} triggerOnce fraction={0.5}>
                         <Feature title="Zero Collateral Loans" img={featureone} />
                     </Fade>
