@@ -5,6 +5,10 @@
     -webkit-background-clip: text;
 }
 
+span{
+    display: block;
+}
+
 .gradientext2 {
 
     -webkit-text-fill-color: transparent;
