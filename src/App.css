@@ -440,6 +440,7 @@ p {
   }
   .roadmapview{
     font-size: 1.2rem;
+    padding: 30px 0;
   }
 
   .roadmapview img{
@@ -481,7 +482,6 @@ p {
   .heading {
     font-size: 1.8rem;
     font-weight: 800;
-    margin-top: 30px;
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Chakra Petch', sans-serif;
     color: #2A0766;

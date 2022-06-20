@@ -73,6 +73,12 @@
 
 @media (max-width:1003px) {
 
+    .promote{
+        background: -webkit-linear-gradient(126deg, #ffb300, #ff00ea,rgb(0, 38, 255));
+        border: none;
+        color: black;
+    }
+
     .featurediv {
         color: black;
         font-weight: 500;
