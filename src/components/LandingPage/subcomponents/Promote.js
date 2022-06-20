@@ -10,7 +10,8 @@ const center = {
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'column',
-    paddingBottom: '4rem'
+    paddingBottom: '4rem',
+    background:'#0b0e14'
 }
 
 
