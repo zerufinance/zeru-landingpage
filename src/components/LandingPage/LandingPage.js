@@ -52,24 +52,24 @@ export default class LandingPage extends Component {
             <Fade direction='down' duration={500} triggerOnce>
             <Row className='footer'>
               <Col span={12} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center',fontFamily:'Chakra petch' }}>
-                <img src={logo} width={30} />
-                <img src={name} width={100} />
+                <img src={logo} width={30} alt="zeru logo"/>
+                <img src={name} width={100} alt="zeru name"/>
                 <span className='createdwithlove' style={{float:'right'}}>
                 Created with ❤️ by Team Zeru
                 </span>
                 
               </Col>
               <Col span={12} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '2rem' }}>
-                <a href='https://discord.gg/yW2BU288Kw' target="_blank">
+                <a href='https://discord.gg/yW2BU288Kw' target="_blank" rel="noreferrer">
                   <FaDiscord style={iconcss} />
                 </a>
-                <a href='https://github.com/zerufinance' target="_blank">
+                <a href='https://github.com/zerufinance' target="_blank" rel="noreferrer">
                   <FaGithub style={iconcss} />
                 </a>
-                <a href='https://t.me/zerufinance' target="_blank">
+                <a href='https://t.me/zerufinance' target="_blank" rel="noreferrer">
                   <FaTelegram style={iconcss} />
                 </a>
-                <a href='https://twitter.com/zerufinance' target="_blank">
+                <a href='https://twitter.com/zerufinance' target="_blank" rel="noreferrer">
                   <FaTwitter style={iconcss} />
                 </a>
 
