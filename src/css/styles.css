@@ -55,3 +55,70 @@
     /* background-clip: border-box; */
     -webkit-background-clip: text;
 }
+
+.color-green{
+    color: #4caf50;
+}
+
+.color-bright-green{
+    color: #00d395;
+}
+
+.color-cement{
+    color: #62677b;
+    margin-bottom: 0;
+}
+.color-dull{
+    color: #9094a7;
+    margin-bottom: 0;
+}
+.color-white{
+    color: white;
+}
+
+.color-light-cement{
+    color: #bbbdc4;
+}
+.color-little-bold-cement{
+    color: #62677b;
+}
+
+
+.font-size-1rem{
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+.font-size-1rem-bolder{
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.font-size-1_5rem{
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+.font-size-1_5rem-bolder{
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.font-size-2rem{
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+.font-size-2rem-bolder{
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.font-size-3rem{
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.font-size-3rem-bolder{
+    margin-bottom: 0;
+    font-size: 3rem;
+    font-weight: 600;
+}
+

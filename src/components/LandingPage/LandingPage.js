@@ -15,6 +15,9 @@ import Promote from './subcomponents/Promote';
 import Features from './subcomponents/Features';
 import Roadmap from './subcomponents/Roadmap';
 import { Fade } from 'react-awesome-reveal';
+import MultiChain from './subcomponents/MultiChain';
+import ZScore from './subcomponents/ZScore';
+import Partnerships from './subcomponents/Partnerships';
 
 const { Header, Footer, Content } = Layout;
 
@@ -45,6 +48,9 @@ export default class LandingPage extends Component {
             <Fifthview />
             <SecondView />
             <ThirdView />
+            <MultiChain/>
+            <ZScore/>
+            <Partnerships/>
             <Roadmap/>
             <ForthView />
           </Content>

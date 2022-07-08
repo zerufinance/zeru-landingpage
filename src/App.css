@@ -413,10 +413,20 @@ p {
   transition: 0.5s;
 }
 
+.multichain{
+  background-color: #ffffff;
+  padding: 5rem;
+}
+.multichain img{
+  width: 70%;
+}
 
-
-
-
+.zscore{
+  padding: 5rem;
+}
+.partnerships{
+  padding:5rem;
+}
 
 
 
