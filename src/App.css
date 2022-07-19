@@ -424,6 +424,9 @@ p {
 .zscore{
   padding: 5rem;
 }
+.zscore img{
+  width: 300px;
+}
 .partnerships{
   padding:5rem;
 }
@@ -646,6 +649,28 @@ p {
   }
   .createdwithlove{
     display: none;
+  }
+  .multichain{
+    padding: 2rem;
+  }
+
+  .multichain img{
+    width: 100%;
+  }
+
+  .zscore{
+    padding: 2rem;
+  }
+  .zscore img{
+    width: 200px;
+  }
+
+  .partnerships{
+    padding:2rem;
+    padding-bottom: 4rem;
+  }
+  .partnerships img{
+    width: 120px;
   }
 
 }
