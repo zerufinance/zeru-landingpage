@@ -7,7 +7,7 @@ export default class FirstViewTextComp extends Component {
     return (
       
       <div id='firstviewtextcomp'>
-        <span className='spanfirstview'>Credit Industry
+        <span className='spanfirstview'>credit Industry
          of Defi World with 
          <span className='gradientext spanfirstview'>Zero-Collateral Loans</span> </span>
         <p>
