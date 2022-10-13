@@ -55,3 +55,11 @@
     /* background-clip: border-box; */
     -webkit-background-clip: text;
 }
+
+.gradientext9 {
+    -webkit-text-fill-color: transparent;
+    /* background: -webkit-linear-gradient(left, #ffd000, #ffb300, #e100ff, #50f); */
+    background: -webkit-linear-gradient(right, #FF026C, #6B13FF, #1E4FFF);
+    color: linear;;
+    -webkit-background-clip: text;
+}

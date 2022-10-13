@@ -12,9 +12,9 @@ export default class SecondView extends Component {
 
           <Col span={24} className='secondviewitems' style={{ color: 'white', background: 'transparent' }}>
             <Fade duration={500} direction='up' triggerOnce='true'>
-              <div>
+              <div style={{fontSize: '64px', fontWeight: 'bold'}}>
                 Integrating DEFI with NFT
-                <p>Bringing Decentralized Finance and NFT together</p>
+                <p style={{color: '#E5B8FF'}}>Bringing Decentralized Finance and NFT together</p>
               </div>
             </Fade>
             

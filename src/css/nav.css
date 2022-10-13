@@ -6,8 +6,9 @@
   .nav__links a,
   .cta,
   .overlay__content a {
-    font-family: "Chakra petch", sans-serif;
-    font-weight: 500;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
     color: #edf0f1;
     text-decoration: none;
   }

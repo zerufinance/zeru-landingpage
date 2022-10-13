@@ -2,6 +2,12 @@ import React, { Component } from 'react'
 import { Row } from 'antd';
 import { Card } from 'antd';
 import { Fade } from 'react-awesome-reveal';
+// import nftbg from '../../../images/nftcardbg.png'
+import smartcardnft from '../../../images/smartcardnft.png'
+import instantloans from '../../../images/instantloans.png'
+import carddeligation from '../../../images/carddeligation.png'
+import Feature from './minicomps/Feature';
+
 
 import '../../../css/styles.css'
 
@@ -21,41 +27,17 @@ export default class ThirdView extends Component {
           </div>
         </Fade>
         
-        <Row style={{ display: 'flex', justifyContent: 'space-around', }}>
-          <Fade direction='left' duration={500} triggerOnce='true' fraction={0.5}>
-            <Card className='cardintransfer' style={cardstyle}>
-              
-                <h3 style={{ color: 'white', fontWeight: '600' }}>Instant Loans</h3>
-                <p>
-                As the core algorithm runs on smart contracts you never have to wait to get a loan. It's Instant, Period.
-                </p>
-              
-              
-            </Card>
-          </Fade>
-          <Fade direction='up' duration={500} triggerOnce='true' fraction={0.5}>
-            <Card className='cardintransfer' style={cardstyle}>
-              <div>
-                <h3 style={{ color: 'white', fontWeight: '600' }}>Smart Card NFT</h3>
-                <p>
-                Convert the credit you earned by minting an NFT and use it as a Smart card to get Credit from Zeru and other protocols.
-                </p>
-              </div>
-              
-            </Card>
-          </Fade>
-          <Fade direction='right' duration={500} triggerOnce='true' fraction={0.5}>
-            <Card className='cardintransfer' style={cardstyle}>
-              <div>
-                <h3 style={{ color: 'white', fontWeight: '600' }}>Credit Delegation</h3>
-                <p>
-                Delegate your credit to anyone as NFT. Delegate borrowing power (i.e. your credit) to other users.                </p>
-              </div>
-              
-            </Card>
-          </Fade>
-          
-        </Row>
+        <Row style={{ display: 'flex', justifyContent: 'space-evenly', flexDirection: 'row', textAlign: 'left',gap:'1rem' }}>
+                    <Fade direction='left' duration={500} triggerOnce fraction={0.5}>
+                        <Feature title="Zero Collateral Loans" img={instantloans} />
+                    </Fade>
+                    <Fade direction='up' duration={500} triggerOnce fraction={0.5}>
+                        <Feature title="Smart Card NFT's" img={smartcardnft} />
+                    </Fade>
+                    <Fade direction='right' duration={500} triggerOnce fraction={0.5}>
+                        <Feature title="" img={carddeligation} />
+                    </Fade>
+                </Row>
 
       </div>
     )

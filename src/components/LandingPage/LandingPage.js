@@ -15,6 +15,9 @@ import Promote from './subcomponents/Promote';
 import Features from './subcomponents/Features';
 import Roadmap from './subcomponents/Roadmap';
 import { Fade } from 'react-awesome-reveal';
+import MultiChain from './subcomponents/MultiChain';
+import Partnerships from './subcomponents/Partnerships';
+import navbarbg from '../../../src/images/navbar_bg.png';
 
 const { Header, Footer, Content } = Layout;
 
@@ -31,7 +34,7 @@ export default class LandingPage extends Component {
       <div className='container' >
 
         <Layout style={{ background: 'transparent' }}>
-          <Header style={{ background: '#0b0e14', position: 'fixed', zIndex: '11', width: '100%' }}>
+          <Header style={{ background: `url(${navbarbg})`, position: 'fixed', zIndex: '11', width: '100%',height: '90px', backgroundSize: 'cover'}}>
             <div>
               <TopNavbar />
             </div>
@@ -45,13 +48,15 @@ export default class LandingPage extends Component {
             <Fifthview />
             <SecondView />
             <ThirdView />
+            <MultiChain />
             <Roadmap/>
+            <Partnerships />
             <ForthView />
           </Content>
           <Footer style={{ background: '#0b0e14', color: 'white', }} >
             <Fade direction='down' duration={500} triggerOnce>
             <Row className='footer'>
-              <Col span={12} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center',fontFamily:'Chakra petch' }}>
+              <Col span={12} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center',fontFamily:'Darker Grotesque' }}>
                 <img src={logo} width={30} alt="zeru logo"/>
                 <img src={name} width={100} alt="zeru name"/>
                 <span className='createdwithlove' style={{float:'right'}}>

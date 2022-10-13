@@ -8,7 +8,7 @@ export default function TopNavbar() {
 
 
   return (
-    <div>
+    <div style={{paddingTop: '15px'}}>
 <a class="logo" href="/">
         <img src={logo} width={30} style={{ float: 'left', marginTop: '15px' }} alt='logo'/>
         <img src={name} width={130} style={{ float: 'left', marginTop: '11px', marginLeft: '7px' }} alt='name'/></a>

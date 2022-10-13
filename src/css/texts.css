@@ -1,0 +1,17 @@
+.desctext {
+    font-size: 56px;
+    font-weight: bold;
+    padding: 0%;
+    
+    /* font-family: darker; */
+}
+
+.desc2text {
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.smalldesc {
+    font-size: 27;
+    font-weight: normal;
+}
