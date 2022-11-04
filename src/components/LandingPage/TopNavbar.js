@@ -8,27 +8,27 @@ export default function TopNavbar() {
 
 
   return (
-    <div style={{paddingTop: '15px'}}>
-<a class="logo" href="/">
-        <img src={logo} width={30} style={{ float: 'left', marginTop: '15px' }} alt='logo'/>
-        <img src={name} width={130} style={{ float: 'left', marginTop: '11px', marginLeft: '7px' }} alt='name'/></a>
+    <div style={{ paddingTop: '15px' }}>
+      <a class="logo" href="/">
+        <img src={logo} width={30} style={{ float: 'left', marginTop: '15px' }} alt='logo' />
+        <img src={name} width={130} style={{ float: 'left', marginTop: '11px', marginLeft: '7px' }} alt='zeru' /></a>
       <div className='mobileHidden'>
-      
-      <nav>
-        <ul class="nav__links">
-          <li><a href="#features">Features</a></li>
-          <li><a href="#zerocollateral">Zero Collateral</a></li>
-          <li><a href="#defi+nft">DeFi + NFT</a></li>
-          <li><a href="#transferablenft">Transferable NFT</a></li>
-          <li><a href="#roadmap">Roadmap</a></li>
-          <li><a href="#community">Community</a></li>
-          <li><a class="cta" href="#">Coming soon</a></li>
-        </ul>
-      </nav>
+
+        <nav>
+          <ul class="nav__links">
+            {/* <li><a href="#features">Features</a></li>
+            <li><a href="#zerocollateral">Zero Collateral</a></li>
+            <li><a href="#defi+nft">DeFi + NFT</a></li>
+            <li><a href="#transferablenft">Transferable NFT</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
+            <li><a href="#community">Community</a></li> */}
+            <li><a class="cta" href="#">Coming soon</a></li>
+          </ul>
+        </nav>
       </div>
 
-     
-      
+
+
       {/* <p class="menu cta">Menu</p> */}
 
       {/* <a href='#firstview'>

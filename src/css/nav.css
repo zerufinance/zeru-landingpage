@@ -37,7 +37,8 @@
   
   .cta {
     padding: 9px 25px;
-    background: -webkit-linear-gradient(left, #224df9, #5b0ce9, #ce00cd);
+    background: -webkit-linear-gradient(left, #FF026C, #6B13FF, #1E4FFF);
+    
     color: white;
     font-weight: 600;
     font-size: 1rem;

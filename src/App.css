@@ -3,7 +3,7 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   font-family: "Darker Grotesque", sans-serif;
-  background: #0b0e14;
+  background: #0a0a1f;
   /* background-color: #0b0e14; */
 }
 
@@ -43,9 +43,7 @@ body {
 }
 
 #firstviewtextcomp p {
-  margin-top: 30px;
-  font-size: 1.2rem;
-  font-weight: 500;
+  margin-bottom: 0;
 }
 
 .features {
@@ -366,8 +364,10 @@ p {
 }
 
 #discordbtn {
-  background: #ffffff;
+  background: linear-gradient(90.18deg, #FF026C 12.46%, #6B13FF 49.25%, #1E4FFF 88.27%) !important;
+  padding: 0px 10px !important;
 }
+
 
 .site-back-top-basic {
   color: rgba(64, 64, 64, 0.6);
