@@ -27,7 +27,7 @@ export default class FirstView extends Component {
               <a href='https://github.com/zerufinance' target="_blank" rel="noreferrer">
                 <FaGithub style={iconcss} />
               </a>
-              <a href='https://t.me/zerufinance' target="_blank" rel="noreferrer">
+              <a href='https://t.me/+UGjCMYBlvVtmZGFl' target="_blank" rel="noreferrer">
                 <FaTelegram style={iconcss} />
               </a>
               <a href='https://twitter.com/zerufinance' target="_blank" rel="noreferrer">
