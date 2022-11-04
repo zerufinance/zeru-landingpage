@@ -12,7 +12,7 @@
     font-weight: 700 !important;
     font-size: 3rem !important;
     line-height: 76px !important;
-    margin-bottom: -30px !important;
+    margin-bottom: -20px !important;
 
     /* identical to box height */
     text-align: center !important;
@@ -27,6 +27,8 @@
     font-weight: 700 !important;
     font-size: 6.5rem !important;
     line-height: 100px !important;
+
+    padding-bottom: 15px;
 
     /* or 83% */
     text-align: center;
