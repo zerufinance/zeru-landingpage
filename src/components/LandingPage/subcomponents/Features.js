@@ -11,10 +11,9 @@ export default class Features extends Component {
         return (
             <div className='features' id='features' >
                 <Fade duration={500} direction='up' triggerOnce='true' >
-                    <div>
+                    <div style={{fontSize: '84px', fontWeight: 'bold'}} className="gradientext9">
                         Features
-                        <div className='underline'>
-                        </div>
+                      
                     </div>
 
                 </Fade>

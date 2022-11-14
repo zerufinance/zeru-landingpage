@@ -1,18 +1,13 @@
-import { Button } from 'antd'
-import React from 'react'
-import eth from '../../../images/eth.png'
-import bitcoin from '../../../images/bitcoin.png'
-import DiscordButton from './reusable/DiscordButton'
+import React, { Component } from "react";
 
-export default function Partnerships() {
-  return (
-    <div className='partnerships'>
-        <p className='font-size-3rem-bolder color-white'>Partnerships</p>
-        <p className='font-size-1_5rem color-dull'>Partner with us! Let's grow together.</p>
-        <br/>
-        <DiscordButton  value="Get in Touch"/>
-        <img src={eth}/>
-        <img src={bitcoin}/>
-    </div>
-  )
+import partnerships from '../../../images/partnerships.png'
+
+export default class Partnerships extends Component {
+  render() {
+    return <div className="multichainview" style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+        <img src={partnerships} style={{width: '90%'}}/>
+        <a class="cta" style={{width: '150px'}} href="#">Get in touch</a>
+        
+    </div>;
+  }
 }
