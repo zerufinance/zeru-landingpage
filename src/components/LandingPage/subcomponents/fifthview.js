@@ -13,10 +13,10 @@ export default class fifthview extends Component {
                 
 
                 <Fade direction='up' duration={500} triggerOnce='true' >
-                    <div className='heading'>
+                    <div className='heading gradientext'>
                         Zero Collateral Loans
-                        <div className='gradientlinebottom'>
-                        </div>
+                        {/* <div className='gradientlinebottom'>
+                        </div> */}
                         <p>Enabling Zero collateral loans to everyone in the world</p>
                     </div>
 

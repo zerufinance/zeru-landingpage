@@ -2,8 +2,8 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
-  font-family: 'Chakra petch', sans-serif;
-  background: #0b0e14;
+  font-family: "Darker Grotesque", sans-serif;
+  background: #0a0a1f;
   /* background-color: #0b0e14; */
 }
 
@@ -25,7 +25,7 @@ body {
   color: white;
   font-size: 3rem;
   /* font-family: 'Poppins', sans-serif; */
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Darker Grotesque", sans-serif;
   font-weight: 800;
   text-align: left;
   margin: auto;
@@ -43,9 +43,7 @@ body {
 }
 
 #firstviewtextcomp p {
-  margin-top: 30px;
-  font-size: 1.2rem;
-  font-weight: 500;
+  margin-bottom: 0;
 }
 
 .features {
@@ -54,7 +52,15 @@ body {
   color: white;
   font-weight: 600;
   padding-top: 5rem;
-  background: linear-gradient(126deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 30%, rgba(7, 47, 146, 1) 65%, rgba(4, 130, 201, 1) 100%, rgba(0, 212, 255, 1) 100%);
+  /* background: linear-gradient(
+    126deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 30%,
+    rgba(7, 47, 146, 1) 65%,
+    rgba(4, 130, 201, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  ); */
+  background: transparent;
   padding-bottom: 3rem;
 }
 
@@ -65,9 +71,17 @@ body {
   font-size: 3.5rem;
   /* background-color: #f0f7ff; */
   /* background: rgb(2, 0, 36); */
-  background: linear-gradient(126deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 30%, rgba(7, 47, 146, 1) 65%, rgba(4, 130, 201, 1) 100%, rgba(0, 212, 255, 1) 100%);
+  /* background: linear-gradient(
+    126deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 30%,
+    rgba(7, 47, 146, 1) 65%,
+    rgba(4, 130, 201, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  ); */
+  background: #14143C;
   /* font-family: 'Poppins', sans-serif; */
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Darker Grotesque", sans-serif;
   font-weight: 800;
   text-align: left;
   margin: auto;
@@ -92,8 +106,8 @@ body {
 
 .bringingcard {
   font-size: 4rem;
+  border-radius: '20px';
 }
-
 
 .defiandnftcardrow {
   margin-top: 100px;
@@ -101,12 +115,11 @@ body {
   align-items: center;
   justify-content: center;
 }
-.defiandnftcardrow p{
+.defiandnftcardrow p {
   color: #070661;
   font-size: 1.4rem;
   font-weight: 600;
 }
-
 
 .commonview {
   display: flex;
@@ -118,7 +131,7 @@ body {
   color: white;
   font-size: 3rem;
   /* font-family: 'Poppins', 'Roboto', sans-serif; */
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Darker Grotesque", sans-serif;
   text-align: left;
   margin: auto;
 }
@@ -142,7 +155,6 @@ body {
   text-align: center;
 }
 
-
 .ant-card-body {
   padding: 20px;
   margin-top: 5px;
@@ -150,14 +162,13 @@ body {
 
 .textmargin {
   margin: 100px;
-  text-align: right;
+  text-align: center;
 }
-
 
 #transferablenft {
   font-weight: 800;
   /* font-family: 'Poppins'; */
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Darker Grotesque", sans-serif;
   background: #0b0e14;
   padding-bottom: 100px;
 }
@@ -171,13 +182,27 @@ body {
   font-size: 2rem;
   color: white;
   padding: 100px 0px;
-  background: linear-gradient(306deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 30%, rgba(7, 47, 146, 1) 65%, rgba(4, 130, 201, 1) 100%, rgba(0, 212, 255, 1) 100%);
+  background: linear-gradient(
+    306deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 30%,
+    rgba(7, 47, 146, 1) 65%,
+    rgba(4, 130, 201, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.multichainview {
+  font-size: 2rem;
+  color: white;
+  padding: 100px 0px;
+  background: #14143C;
 }
 
 
 #community {
   /* font-family: 'Poppins'; */
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Darker Grotesque", sans-serif;
   font-weight: 800;
 }
 
@@ -213,7 +238,7 @@ body {
 .col {
   padding: 20px;
   /* font-family: 'Poppins', sans-serif; */
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Darker Grotesque", sans-serif;
   font-size: 1.5rem;
 }
 
@@ -227,9 +252,9 @@ body {
   background-color: white;
   font-size: 2rem;
   /* font-family: 'Poppins', sans-serif; */
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Darker Grotesque", sans-serif;
   padding-bottom: 40px;
-  color: #2A0766;
+  color: #2a0766;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -241,14 +266,14 @@ body {
   font-weight: 800;
   padding-top: 4rem;
   /* font-family: 'Poppins', sans-serif; */
-  font-family: 'Chakra Petch', sans-serif;
-  color: #2A0766;
+  font-family: "Darker Grotesque", sans-serif;
+  color: #2a0766;
 }
 
 .heading p {
   font-size: 1.1rem;
   font-weight: 500;
-  color: #4A0DB2;
+  color: #4a0db2;
 }
 
 .roundedimg {
@@ -271,7 +296,7 @@ body {
 }
 
 .cardintransfer::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100px;
   height: 200%;
@@ -280,7 +305,7 @@ body {
 }
 
 .cardintransfer::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 4px;
   background-color: #0b0e14;
@@ -296,7 +321,6 @@ body {
   100% {
     transform: rotate(360deg);
   }
-
 }
 
 .cardintransfer h3,
@@ -305,28 +329,27 @@ p {
   z-index: 10;
 }
 
-
-.ant-menu>.ant-menu-item-active,
-.ant-menu>.ant-menu-item-open,
-.ant-menu>.ant-menu-item-selected,
-.ant-menu>.ant-menu-item:hover,
-.ant-menu>.ant-menu-submenu-active,
-.ant-menu>.ant-menu-submenu-open,
-.ant-menu>.ant-menu-submenu-selected,
-.ant-menu>.ant-menu-submenu:hover {
+.ant-menu > .ant-menu-item-active,
+.ant-menu > .ant-menu-item-open,
+.ant-menu > .ant-menu-item-selected,
+.ant-menu > .ant-menu-item:hover,
+.ant-menu > .ant-menu-submenu-active,
+.ant-menu > .ant-menu-submenu-open,
+.ant-menu > .ant-menu-submenu-selected,
+.ant-menu > .ant-menu-submenu:hover {
   /* background: -webkit-linear-gradient(right, rgb(103, 117, 220), rgb(255, 0, 249)); */
   background: #0b0e14;
   color: #d000c4 !important;
 }
 
-.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-active::after,
-.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-open::after,
-.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-selected::after,
-.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item:hover::after,
-.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-active::after,
-.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-open::after,
-.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-selected::after,
-.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu:hover::after {
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after {
   border-bottom: 2px solid #d000c4;
   color: #d000c4;
 }
@@ -341,8 +364,10 @@ p {
 }
 
 #discordbtn {
-  background: -webkit-linear-gradient(right, #224df9, #5b0ce9, #ce00cd);
+  background: linear-gradient(90.18deg, #FF026C 12.46%, #6B13FF 49.25%, #1E4FFF 88.27%) !important;
+  padding: 0px 10px !important;
 }
+
 
 .site-back-top-basic {
   color: rgba(64, 64, 64, 0.6);
@@ -351,15 +376,15 @@ p {
 .ant-layout-header {
   height: 64px;
   padding: 0 50px;
-  color: rgba(0, 0, 0, .85);
+  color: rgba(0, 0, 0, 0.85);
   line-height: 64px;
   background: white;
 }
 
-.ant-menu>.ant-menu-item {
+.ant-menu > .ant-menu-item {
   font-size: 1rem;
   /* font-family: 'Poppins', sans-serif; */
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Darker Grotesque", sans-serif;
   color: black;
   background-color: white;
 }
@@ -388,7 +413,7 @@ p {
   font-size: 1.1rem;
   font-weight: 500;
   margin: 10px 0;
-  color: #4A0DB2;
+  color: #4a0db2;
 }
 
 .secondcenter .d2 {
@@ -403,8 +428,7 @@ p {
   margin-right: 0px;
 }
 
-
-.glass{
+.glass {
   position: absolute;
   width: 500px;
   height: 300px;
@@ -413,37 +437,17 @@ p {
   transition: 0.5s;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Mobile responsive design */
-@media (max-width:1200px) {
-
+@media (max-width: 1200px) {
   .mobileHidden {
     visibility: hidden;
   }
-  .roadmapview{
+  .roadmapview {
     font-size: 1.2rem;
     padding: 30px 0;
   }
 
-  .roadmapview img{
+  .roadmapview img {
     width: 300px;
   }
 
@@ -462,7 +466,7 @@ p {
     color: white;
     font-size: 2rem;
     /* font-family: 'Poppins', sans-serif; */
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: "Darker Grotesque", sans-serif;
     font-weight: 800;
     /* background-image: url("./images/a4.png");
     overflow: hidden; */
@@ -483,8 +487,8 @@ p {
     font-size: 1.8rem;
     font-weight: 800;
     /* font-family: 'Poppins', sans-serif; */
-    font-family: 'Chakra Petch', sans-serif;
-    color: #2A0766;
+    font-family: "Darker Grotesque", sans-serif;
+    color: #2a0766;
   }
 
   .heading p {
@@ -504,7 +508,7 @@ p {
   .secondcenter .d1 p {
     font-size: 0.9rem;
     font-weight: 400;
-    color: #4A0DB2;
+    color: #4a0db2;
   }
 
   .secondcenter .d2 {
@@ -569,7 +573,7 @@ p {
   }
 
   .textmargin p {
-    text-align:center;
+    text-align: center;
     font-size: 0.9rem;
   }
 
@@ -588,7 +592,7 @@ p {
     margin-top: 0px;
     padding-top: 0px;
     /* font-family: 'Poppins'; */
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: "Darker Grotesque", sans-serif;
     font-size: 1.8rem;
     font-weight: 800;
   }
@@ -613,20 +617,24 @@ p {
     color: white;
     font-weight: 600;
     padding-top: 3rem;
-    background: linear-gradient(126deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 30%, rgba(7, 47, 146, 1) 65%, rgba(4, 130, 201, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    background: linear-gradient(
+      126deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 30%,
+      rgba(7, 47, 146, 1) 65%,
+      rgba(4, 130, 201, 1) 100%,
+      rgba(0, 212, 255, 1) 100%
+    );
     padding-bottom: 3rem;
   }
 
-
-  .bringingcard p{
+  .bringingcard p {
     font-size: 1.2rem;
     font-weight: 600;
   }
-
 }
 
-@media (max-width:500px) {
-
+@media (max-width: 500px) {
   .footer {
     display: flex;
     align-items: center;
@@ -634,8 +642,7 @@ p {
     flex-direction: column;
     gap: 1rem;
   }
-  .createdwithlove{
+  .createdwithlove {
     display: none;
   }
-
 }
