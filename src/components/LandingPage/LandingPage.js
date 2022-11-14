@@ -19,6 +19,7 @@ import MultiChain from './subcomponents/MultiChain';
 import Partnerships from './subcomponents/Partnerships';
 import navbarbg from '../../../src/images/navbar_bg.png';
 
+
 const { Header, Footer, Content } = Layout;
 
 const iconcss = {
