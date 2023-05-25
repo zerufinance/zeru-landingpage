@@ -25,67 +25,67 @@ const { Header, Footer, Content } = Layout;
 const iconcss = {
   height: '30px',
   width: '30px',
-  color:'white'
+  color: 'white'
 }
 
 export default class LandingPage extends Component {
-  
+
   render() {
     return (
       <div className='container' >
 
         <Layout style={{ background: 'transparent' }}>
-          <Header style={{ background: `url(${navbarbg})`, position: 'fixed', zIndex: '11', width: '100%',height: '90px', backgroundSize: 'cover'}}>
+          <Header style={{ background: `url(${navbarbg})`, position: 'fixed', zIndex: '11', width: '100%', height: '90px', backgroundSize: 'cover' }}>
             <div>
               <TopNavbar />
             </div>
 
           </Header>
-          
+
           <Content>
             <FirstView />
-            {/* <Promote />
-            <Features/>
+            <Promote />
+            <Features />
             <Fifthview />
             <SecondView />
             <ThirdView />
             <MultiChain />
-            <Roadmap/>
+            {/* <Roadmap /> */}
             <Partnerships />
-            <ForthView /> */}
-            
+            <ForthView />
+
           </Content>
-          {/* <Footer style={{ background: '#14143c', color: 'white', }} >
+          <Footer style={{ background: '#14143c', color: 'white', }} >
             <Fade direction='down' duration={500} triggerOnce>
-            <Row className='footer'>
-              <Col span={12} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center',fontFamily:'Darker Grotesque' }}>
-                <img src={logo} width={30} alt="zeru logo"/>
-                <img src={name} width={100} alt="zeru name"/>
-                <span className='createdwithlove' style={{float:'right'}}>
-                Created with ❤️ by Team Zeru
-                </span>
-                
-              </Col>
-              <Col span={12} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '2rem' }}>
-                <a href='https://discord.gg/yW2BU288Kw' target="_blank" rel="noreferrer">
-                  <FaDiscord style={iconcss} />
-                </a>
-                <a href='https://github.com/zerufinance' target="_blank" rel="noreferrer">
-                  <FaGithub style={iconcss} />
-                </a>
-                <a href='https://t.me/zerufinance' target="_blank" rel="noreferrer">
-                  <FaTelegram style={iconcss} />
-                </a>
-                <a href='https://twitter.com/zerufinance' target="_blank" rel="noreferrer">
-                  <FaTwitter style={iconcss} />
-                </a>
+              <Row className='footer'>
+                <Col span={12} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'Darker Grotesque' }}>
+                  <img src={logo} width={30} alt="zeru logo" />
+                  <img src={name} width={100} alt="zeru name" />
+                  <span className='createdwithlove' style={{ float: 'right' }}>
+                    Created with ❤️ by Team Zeru
+                  </span>
 
-              </Col>
+                </Col>
+                <Col span={12} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '2rem' }}>
+                  <a href='https://discord.gg/yW2BU288Kw' target="_blank" rel="noreferrer">
+                    <FaDiscord style={iconcss} />
+                  </a>
+                  <a href='https://github.com/zerufinance' target="_blank" rel="noreferrer">
+                    <FaGithub style={iconcss} />
+                  </a>
+                  <a href='https://t.me/+UGjCMYBlvVtmZGFl' target="_blank" rel="noreferrer">
+                    <FaTelegram style={iconcss} />
+                  </a>
+                  <a href='https://twitter.com/zerufinance' target="_blank" rel="noreferrer">
+                    <FaTwitter style={iconcss} />
+                  </a>
 
-            </Row>
+                </Col>
+
+              </Row>
             </Fade>
 
-          </Footer> */}
+          </Footer>
         </Layout>
 
       </div>
