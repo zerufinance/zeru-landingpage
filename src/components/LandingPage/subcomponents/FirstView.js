@@ -19,7 +19,7 @@ export default class FirstView extends Component {
           <Fade direction='up' duration="500" triggerOnce='true'>
             <FirstViewTextComp />
           </Fade>
-          {/* <Fade direction='right' duration="500" triggerOnce='true'>
+          <Fade direction='right' duration="500" triggerOnce='true'>
             <div className='f-a-c'>
               <a href='https://discord.gg/yW2BU288Kw' target="_blank" rel="noreferrer">
                 <FaDiscord style={iconcss} />
@@ -34,7 +34,7 @@ export default class FirstView extends Component {
                 <FaTwitter style={iconcss} />
               </a>
             </div>
-          </Fade> */}
+          </Fade>
 
 
         </div>

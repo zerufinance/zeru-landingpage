@@ -44,18 +44,18 @@ export default class LandingPage extends Component {
 
           <Content>
             <FirstView />
-            <Promote />
+            {/* <Promote />
             <Features />
             <Fifthview />
             <SecondView />
             <ThirdView />
             <MultiChain />
-            {/* <Roadmap /> */}
+            <Roadmap />
             <Partnerships />
-            <ForthView />
+            <ForthView /> */}
 
           </Content>
-          <Footer style={{ background: '#14143c', color: 'white', }} >
+          {/* <Footer style={{ background: '#14143c', color: 'white', }} >
             <Fade direction='down' duration={500} triggerOnce>
               <Row className='footer'>
                 <Col span={12} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'Darker Grotesque' }}>
@@ -85,7 +85,7 @@ export default class LandingPage extends Component {
               </Row>
             </Fade>
 
-          </Footer>
+          </Footer> */}
         </Layout>
 
       </div>
